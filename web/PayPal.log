@@ -1,0 +1,290 @@
+PPAPIService: Request: requestEnvelope.errorLanguage=en_US&actionType=PAY&cancelUrl=http%3A%2F%2Fbeta.rigbag.com%2Fpayment%2Fcancel%2Fpaypal%2Fbuy%2F%3Fti%3D41&currencyCode=EUR&feesPayer=EACHRECEIVER&ipnNotificationUrl=http%3A%2F%2Fbeta.rigbag.com%2Fpayment%2Fipn%2F&memo=RigBag+-+advert+no.119&receiverList.receiver(0).amount=110&receiverList.receiver(0).email=miecho_1356265732_per%40protonlabs.co&receiverList.receiver(0).paymentType=GOODS&returnUrl=http%3A%2F%2Fbeta.rigbag.com%2Fpayment%2Freturn%2Fpaypal%2Fbuy%2F%3Fti%3D41&trackingId=41
+PPHttpConnection: Adding header X-PAYPAL-SECURITY-USERID: maciek_1356234351_biz_api1.protonlabs.co
+PPHttpConnection: Adding header X-PAYPAL-SECURITY-PASSWORD: 1356234383
+PPHttpConnection: Adding header X-PAYPAL-SECURITY-SIGNATURE: AFcWxV21C7fd0v3bYYYRCpSSRl31AOJx9Fb0GjgHzq5th3xBO9Eb3.6w
+PPHttpConnection: Adding header X-PAYPAL-REQUEST-DATA-FORMAT: NV
+PPHttpConnection: Adding header X-PAYPAL-RESPONSE-DATA-FORMAT: NV
+PPHttpConnection: Adding header X-PAYPAL-DEVICE-IPADDRESS: 78.46.8.101
+PPHttpConnection: Adding header X-PAYPAL-REQUEST-SOURCE: adaptivepayments-php-sdk-2.1.96
+PPHttpConnection: Adding header X-PAYPAL-APPLICATION-ID: APP-80W284485P519543T
+PPAPIService: Response: responseEnvelope.timestamp=2012-12-26T13%3A44%3A24.588-08%3A00&responseEnvelope.ack=Success&responseEnvelope.correlationId=7f0069bbccb8a&responseEnvelope.build=4110101&payKey=AP-8PD344836J1183802&paymentExecStatus=CREATED
+PPAPIService: Request: requestEnvelope.errorLanguage=en_US&actionType=PAY&cancelUrl=http%3A%2F%2Fbeta.rigbag.com%2Fpayment%2Fcancel%2Fpaypal%2Fbuy%2F%3Fti%3D42&currencyCode=EUR&feesPayer=EACHRECEIVER&ipnNotificationUrl=http%3A%2F%2Fbeta.rigbag.com%2Fpayment%2Fipn%2F&memo=RigBag+-+advert+no.119&receiverList.receiver(0).amount=110&receiverList.receiver(0).email=miecho_1356265732_per%40protonlabs.co&receiverList.receiver(0).paymentType=GOODS&returnUrl=http%3A%2F%2Fbeta.rigbag.com%2Fpayment%2Freturn%2Fpaypal%2Fbuy%2F%3Fti%3D42&trackingId=42
+PPHttpConnection: Adding header X-PAYPAL-SECURITY-USERID: maciek_1356234351_biz_api1.protonlabs.co
+PPHttpConnection: Adding header X-PAYPAL-SECURITY-PASSWORD: 1356234383
+PPHttpConnection: Adding header X-PAYPAL-SECURITY-SIGNATURE: AFcWxV21C7fd0v3bYYYRCpSSRl31AOJx9Fb0GjgHzq5th3xBO9Eb3.6w
+PPHttpConnection: Adding header X-PAYPAL-REQUEST-DATA-FORMAT: NV
+PPHttpConnection: Adding header X-PAYPAL-RESPONSE-DATA-FORMAT: NV
+PPHttpConnection: Adding header X-PAYPAL-DEVICE-IPADDRESS: 78.46.8.101
+PPHttpConnection: Adding header X-PAYPAL-REQUEST-SOURCE: adaptivepayments-php-sdk-2.1.96
+PPHttpConnection: Adding header X-PAYPAL-APPLICATION-ID: APP-80W284485P519543T
+PPAPIService: Response: responseEnvelope.timestamp=2012-12-26T13%3A45%3A49.328-08%3A00&responseEnvelope.ack=Success&responseEnvelope.correlationId=65080a19d1fcc&responseEnvelope.build=4110101&payKey=AP-18C010411U205891B&paymentExecStatus=CREATED
+PPAPIService: Request: requestEnvelope.errorLanguage=en_US&payKey=AP-18C010411U205891B
+PPHttpConnection: Adding header X-PAYPAL-SECURITY-USERID: maciek_1356234351_biz_api1.protonlabs.co
+PPHttpConnection: Adding header X-PAYPAL-SECURITY-PASSWORD: 1356234383
+PPHttpConnection: Adding header X-PAYPAL-SECURITY-SIGNATURE: AFcWxV21C7fd0v3bYYYRCpSSRl31AOJx9Fb0GjgHzq5th3xBO9Eb3.6w
+PPHttpConnection: Adding header X-PAYPAL-REQUEST-DATA-FORMAT: NV
+PPHttpConnection: Adding header X-PAYPAL-RESPONSE-DATA-FORMAT: NV
+PPHttpConnection: Adding header X-PAYPAL-DEVICE-IPADDRESS: 78.46.8.101
+PPHttpConnection: Adding header X-PAYPAL-REQUEST-SOURCE: adaptivepayments-php-sdk-2.1.96
+PPHttpConnection: Adding header X-PAYPAL-APPLICATION-ID: APP-80W284485P519543T
+PPAPIService: Response: responseEnvelope.timestamp=2012-12-26T13%3A47%3A47.437-08%3A00&responseEnvelope.ack=Success&responseEnvelope.correlationId=e2fd4dcafd691&responseEnvelope.build=4110101&cancelUrl=http%3A%2F%2Fbeta.rigbag.com%2Fpayment%2Fcancel%2Fpaypal%2Fbuy%2F%3Fti%3D42&currencyCode=EUR&ipnNotificationUrl=http%3A%2F%2Fbeta.rigbag.com%2Fpayment%2Fipn%2F&memo=RigBag+-+advert+no.119&paymentInfoList.paymentInfo(0).transactionId=2SL14567AB254843D&paymentInfoList.paymentInfo(0).transactionStatus=PENDING&paymentInfoList.paymentInfo(0).receiver.amount=110.00&paymentInfoList.paymentInfo(0).receiver.email=miecho_1356265732_per%40protonlabs.co&paymentInfoList.paymentInfo(0).receiver.primary=false&paymentInfoList.paymentInfo(0).receiver.paymentType=GOODS&paymentInfoList.paymentInfo(0).refundedAmount=0.00&paymentInfoList.paymentInfo(0).pendingRefund=false&paymentInfoList.paymentInfo(0).senderTransactionId=0U1789888V437082V&paymentInfoList.paymentInfo(0).senderTransactionStatus=PENDING&paymentInfoList.paymentInfo(0).pendingReason=MULTI_CURRENCY&returnUrl=http%3A%2F%2Fbeta.rigbag.com%2Fpayment%2Freturn%2Fpaypal%2Fbuy%2F%3Fti%3D42&senderEmail=bartek_1356252446_per%40protonlabs.co&status=COMPLETED&trackingId=42&payKey=AP-18C010411U205891B&actionType=PAY&feesPayer=EACHRECEIVER&reverseAllParallelPaymentsOnError=false&sender.email=bartek_1356252446_per%40protonlabs.co&sender.useCredentials=false
+PPAPIService: Request: requestEnvelope.errorLanguage=en_US&payKey=AP-18C010411U205891B
+PPHttpConnection: Adding header X-PAYPAL-SECURITY-USERID: maciek_1356234351_biz_api1.protonlabs.co
+PPHttpConnection: Adding header X-PAYPAL-SECURITY-PASSWORD: 1356234383
+PPHttpConnection: Adding header X-PAYPAL-SECURITY-SIGNATURE: AFcWxV21C7fd0v3bYYYRCpSSRl31AOJx9Fb0GjgHzq5th3xBO9Eb3.6w
+PPHttpConnection: Adding header X-PAYPAL-REQUEST-DATA-FORMAT: NV
+PPHttpConnection: Adding header X-PAYPAL-RESPONSE-DATA-FORMAT: NV
+PPHttpConnection: Adding header X-PAYPAL-DEVICE-IPADDRESS: 78.46.8.101
+PPHttpConnection: Adding header X-PAYPAL-REQUEST-SOURCE: adaptivepayments-php-sdk-2.1.96
+PPHttpConnection: Adding header X-PAYPAL-APPLICATION-ID: APP-80W284485P519543T
+PPAPIService: Response: responseEnvelope.timestamp=2012-12-26T13%3A47%3A50.850-08%3A00&responseEnvelope.ack=Success&responseEnvelope.correlationId=72a4e2e4f2aa9&responseEnvelope.build=4110101&cancelUrl=http%3A%2F%2Fbeta.rigbag.com%2Fpayment%2Fcancel%2Fpaypal%2Fbuy%2F%3Fti%3D42&currencyCode=EUR&ipnNotificationUrl=http%3A%2F%2Fbeta.rigbag.com%2Fpayment%2Fipn%2F&memo=RigBag+-+advert+no.119&paymentInfoList.paymentInfo(0).transactionId=2SL14567AB254843D&paymentInfoList.paymentInfo(0).transactionStatus=PENDING&paymentInfoList.paymentInfo(0).receiver.amount=110.00&paymentInfoList.paymentInfo(0).receiver.email=miecho_1356265732_per%40protonlabs.co&paymentInfoList.paymentInfo(0).receiver.primary=false&paymentInfoList.paymentInfo(0).receiver.paymentType=GOODS&paymentInfoList.paymentInfo(0).refundedAmount=0.00&paymentInfoList.paymentInfo(0).pendingRefund=false&paymentInfoList.paymentInfo(0).senderTransactionId=0U1789888V437082V&paymentInfoList.paymentInfo(0).senderTransactionStatus=PENDING&paymentInfoList.paymentInfo(0).pendingReason=MULTI_CURRENCY&returnUrl=http%3A%2F%2Fbeta.rigbag.com%2Fpayment%2Freturn%2Fpaypal%2Fbuy%2F%3Fti%3D42&senderEmail=bartek_1356252446_per%40protonlabs.co&status=COMPLETED&trackingId=42&payKey=AP-18C010411U205891B&actionType=PAY&feesPayer=EACHRECEIVER&reverseAllParallelPaymentsOnError=false&sender.email=bartek_1356252446_per%40protonlabs.co&sender.useCredentials=false
+PPAPIService: Request: requestEnvelope.errorLanguage=en_US&payKey=AP-18C010411U205891B
+PPHttpConnection: Adding header X-PAYPAL-SECURITY-USERID: maciek_1356234351_biz_api1.protonlabs.co
+PPHttpConnection: Adding header X-PAYPAL-SECURITY-PASSWORD: 1356234383
+PPHttpConnection: Adding header X-PAYPAL-SECURITY-SIGNATURE: AFcWxV21C7fd0v3bYYYRCpSSRl31AOJx9Fb0GjgHzq5th3xBO9Eb3.6w
+PPHttpConnection: Adding header X-PAYPAL-REQUEST-DATA-FORMAT: NV
+PPHttpConnection: Adding header X-PAYPAL-RESPONSE-DATA-FORMAT: NV
+PPHttpConnection: Adding header X-PAYPAL-DEVICE-IPADDRESS: 78.46.8.101
+PPHttpConnection: Adding header X-PAYPAL-REQUEST-SOURCE: adaptivepayments-php-sdk-2.1.96
+PPHttpConnection: Adding header X-PAYPAL-APPLICATION-ID: APP-80W284485P519543T
+PPAPIService: Response: responseEnvelope.timestamp=2012-12-26T13%3A50%3A19.656-08%3A00&responseEnvelope.ack=Success&responseEnvelope.correlationId=60318606165f1&responseEnvelope.build=4110101&cancelUrl=http%3A%2F%2Fbeta.rigbag.com%2Fpayment%2Fcancel%2Fpaypal%2Fbuy%2F%3Fti%3D42&currencyCode=EUR&ipnNotificationUrl=http%3A%2F%2Fbeta.rigbag.com%2Fpayment%2Fipn%2F&memo=RigBag+-+advert+no.119&paymentInfoList.paymentInfo(0).transactionId=2SL14567AB254843D&paymentInfoList.paymentInfo(0).transactionStatus=PENDING&paymentInfoList.paymentInfo(0).receiver.amount=110.00&paymentInfoList.paymentInfo(0).receiver.email=miecho_1356265732_per%40protonlabs.co&paymentInfoList.paymentInfo(0).receiver.primary=false&paymentInfoList.paymentInfo(0).receiver.paymentType=GOODS&paymentInfoList.paymentInfo(0).refundedAmount=0.00&paymentInfoList.paymentInfo(0).pendingRefund=false&paymentInfoList.paymentInfo(0).senderTransactionId=0U1789888V437082V&paymentInfoList.paymentInfo(0).senderTransactionStatus=PENDING&paymentInfoList.paymentInfo(0).pendingReason=MULTI_CURRENCY&returnUrl=http%3A%2F%2Fbeta.rigbag.com%2Fpayment%2Freturn%2Fpaypal%2Fbuy%2F%3Fti%3D42&senderEmail=bartek_1356252446_per%40protonlabs.co&status=COMPLETED&trackingId=42&payKey=AP-18C010411U205891B&actionType=PAY&feesPayer=EACHRECEIVER&reverseAllParallelPaymentsOnError=false&sender.email=bartek_1356252446_per%40protonlabs.co&sender.useCredentials=false
+PPAPIService: Request: requestEnvelope.errorLanguage=en_US&payKey=AP-18C010411U205891B
+PPHttpConnection: Adding header X-PAYPAL-SECURITY-USERID: maciek_1356234351_biz_api1.protonlabs.co
+PPHttpConnection: Adding header X-PAYPAL-SECURITY-PASSWORD: 1356234383
+PPHttpConnection: Adding header X-PAYPAL-SECURITY-SIGNATURE: AFcWxV21C7fd0v3bYYYRCpSSRl31AOJx9Fb0GjgHzq5th3xBO9Eb3.6w
+PPHttpConnection: Adding header X-PAYPAL-REQUEST-DATA-FORMAT: NV
+PPHttpConnection: Adding header X-PAYPAL-RESPONSE-DATA-FORMAT: NV
+PPHttpConnection: Adding header X-PAYPAL-DEVICE-IPADDRESS: 78.46.8.101
+PPHttpConnection: Adding header X-PAYPAL-REQUEST-SOURCE: adaptivepayments-php-sdk-2.1.96
+PPHttpConnection: Adding header X-PAYPAL-APPLICATION-ID: APP-80W284485P519543T
+PPAPIService: Response: responseEnvelope.timestamp=2012-12-26T13%3A50%3A26.562-08%3A00&responseEnvelope.ack=Success&responseEnvelope.correlationId=37aa1c9d14c52&responseEnvelope.build=4110101&cancelUrl=http%3A%2F%2Fbeta.rigbag.com%2Fpayment%2Fcancel%2Fpaypal%2Fbuy%2F%3Fti%3D42&currencyCode=EUR&ipnNotificationUrl=http%3A%2F%2Fbeta.rigbag.com%2Fpayment%2Fipn%2F&memo=RigBag+-+advert+no.119&paymentInfoList.paymentInfo(0).transactionId=2SL14567AB254843D&paymentInfoList.paymentInfo(0).transactionStatus=PENDING&paymentInfoList.paymentInfo(0).receiver.amount=110.00&paymentInfoList.paymentInfo(0).receiver.email=miecho_1356265732_per%40protonlabs.co&paymentInfoList.paymentInfo(0).receiver.primary=false&paymentInfoList.paymentInfo(0).receiver.paymentType=GOODS&paymentInfoList.paymentInfo(0).refundedAmount=0.00&paymentInfoList.paymentInfo(0).pendingRefund=false&paymentInfoList.paymentInfo(0).senderTransactionId=0U1789888V437082V&paymentInfoList.paymentInfo(0).senderTransactionStatus=PENDING&paymentInfoList.paymentInfo(0).pendingReason=MULTI_CURRENCY&returnUrl=http%3A%2F%2Fbeta.rigbag.com%2Fpayment%2Freturn%2Fpaypal%2Fbuy%2F%3Fti%3D42&senderEmail=bartek_1356252446_per%40protonlabs.co&status=COMPLETED&trackingId=42&payKey=AP-18C010411U205891B&actionType=PAY&feesPayer=EACHRECEIVER&reverseAllParallelPaymentsOnError=false&sender.email=bartek_1356252446_per%40protonlabs.co&sender.useCredentials=false
+PPAPIService: Request: requestEnvelope.errorLanguage=en_US&actionType=PAY&cancelUrl=http%3A%2F%2Fbeta.rigbag.com%2Fapp_dev.php%2Fpayment%2Fcancel%2Fpaypal%2Fbuy%2F%3Fti%3D43&currencyCode=EUR&feesPayer=EACHRECEIVER&ipnNotificationUrl=http%3A%2F%2Fbeta.rigbag.com%2Fapp_dev.php%2Fpayment%2Fipn%2F&memo=RigBag+-+advert+no.119&receiverList.receiver(0).amount=110&receiverList.receiver(0).email=miecho_1356265732_per%40protonlabs.co&receiverList.receiver(0).paymentType=GOODS&returnUrl=http%3A%2F%2Fbeta.rigbag.com%2Fapp_dev.php%2Fpayment%2Freturn%2Fpaypal%2Fbuy%2F%3Fti%3D43&trackingId=43
+PPHttpConnection: Adding header X-PAYPAL-SECURITY-USERID: maciek_1356234351_biz_api1.protonlabs.co
+PPHttpConnection: Adding header X-PAYPAL-SECURITY-PASSWORD: 1356234383
+PPHttpConnection: Adding header X-PAYPAL-SECURITY-SIGNATURE: AFcWxV21C7fd0v3bYYYRCpSSRl31AOJx9Fb0GjgHzq5th3xBO9Eb3.6w
+PPHttpConnection: Adding header X-PAYPAL-REQUEST-DATA-FORMAT: NV
+PPHttpConnection: Adding header X-PAYPAL-RESPONSE-DATA-FORMAT: NV
+PPHttpConnection: Adding header X-PAYPAL-DEVICE-IPADDRESS: 78.46.8.101
+PPHttpConnection: Adding header X-PAYPAL-REQUEST-SOURCE: adaptivepayments-php-sdk-2.1.96
+PPHttpConnection: Adding header X-PAYPAL-APPLICATION-ID: APP-80W284485P519543T
+PPAPIService: Response: responseEnvelope.timestamp=2012-12-26T13%3A52%3A04.386-08%3A00&responseEnvelope.ack=Success&responseEnvelope.correlationId=ef096cb83c5e8&responseEnvelope.build=4110101&payKey=AP-8NF56082G35139927&paymentExecStatus=CREATED
+PPAPIService: Request: requestEnvelope.errorLanguage=en_US&payKey=AP-8NF56082G35139927
+PPHttpConnection: Adding header X-PAYPAL-SECURITY-USERID: maciek_1356234351_biz_api1.protonlabs.co
+PPHttpConnection: Adding header X-PAYPAL-SECURITY-PASSWORD: 1356234383
+PPHttpConnection: Adding header X-PAYPAL-SECURITY-SIGNATURE: AFcWxV21C7fd0v3bYYYRCpSSRl31AOJx9Fb0GjgHzq5th3xBO9Eb3.6w
+PPHttpConnection: Adding header X-PAYPAL-REQUEST-DATA-FORMAT: NV
+PPHttpConnection: Adding header X-PAYPAL-RESPONSE-DATA-FORMAT: NV
+PPHttpConnection: Adding header X-PAYPAL-DEVICE-IPADDRESS: 78.46.8.101
+PPHttpConnection: Adding header X-PAYPAL-REQUEST-SOURCE: adaptivepayments-php-sdk-2.1.96
+PPHttpConnection: Adding header X-PAYPAL-APPLICATION-ID: APP-80W284485P519543T
+PPAPIService: Request: requestEnvelope.errorLanguage=en_US&payKey=AP-8NF56082G35139927
+PPHttpConnection: Adding header X-PAYPAL-SECURITY-USERID: maciek_1356234351_biz_api1.protonlabs.co
+PPHttpConnection: Adding header X-PAYPAL-SECURITY-PASSWORD: 1356234383
+PPHttpConnection: Adding header X-PAYPAL-SECURITY-SIGNATURE: AFcWxV21C7fd0v3bYYYRCpSSRl31AOJx9Fb0GjgHzq5th3xBO9Eb3.6w
+PPHttpConnection: Adding header X-PAYPAL-REQUEST-DATA-FORMAT: NV
+PPHttpConnection: Adding header X-PAYPAL-RESPONSE-DATA-FORMAT: NV
+PPHttpConnection: Adding header X-PAYPAL-DEVICE-IPADDRESS: 78.46.8.101
+PPHttpConnection: Adding header X-PAYPAL-REQUEST-SOURCE: adaptivepayments-php-sdk-2.1.96
+PPHttpConnection: Adding header X-PAYPAL-APPLICATION-ID: APP-80W284485P519543T
+PPAPIService: Response: responseEnvelope.timestamp=2012-12-26T13%3A52%3A35.091-08%3A00&responseEnvelope.ack=Success&responseEnvelope.correlationId=07e27d7b36a93&responseEnvelope.build=4110101&cancelUrl=http%3A%2F%2Fbeta.rigbag.com%2Fapp_dev.php%2Fpayment%2Fcancel%2Fpaypal%2Fbuy%2F%3Fti%3D43&currencyCode=EUR&ipnNotificationUrl=http%3A%2F%2Fbeta.rigbag.com%2Fapp_dev.php%2Fpayment%2Fipn%2F&memo=RigBag+-+advert+no.119&paymentInfoList.paymentInfo(0).transactionId=9PV12140658194712&paymentInfoList.paymentInfo(0).transactionStatus=PENDING&paymentInfoList.paymentInfo(0).receiver.amount=110.00&paymentInfoList.paymentInfo(0).receiver.email=miecho_1356265732_per%40protonlabs.co&paymentInfoList.paymentInfo(0).receiver.primary=false&paymentInfoList.paymentInfo(0).receiver.paymentType=GOODS&paymentInfoList.paymentInfo(0).refundedAmount=0.00&paymentInfoList.paymentInfo(0).pendingRefund=false&paymentInfoList.paymentInfo(0).senderTransactionId=2E131939M9318780L&paymentInfoList.paymentInfo(0).senderTransactionStatus=PENDING&paymentInfoList.paymentInfo(0).pendingReason=MULTI_CURRENCY&returnUrl=http%3A%2F%2Fbeta.rigbag.com%2Fapp_dev.php%2Fpayment%2Freturn%2Fpaypal%2Fbuy%2F%3Fti%3D43&senderEmail=bartek_1356252446_per%40protonlabs.co&status=COMPLETED&trackingId=43&payKey=AP-8NF56082G35139927&actionType=PAY&feesPayer=EACHRECEIVER&reverseAllParallelPaymentsOnError=false&sender.email=bartek_1356252446_per%40protonlabs.co&sender.useCredentials=false
+PPAPIService: Response: responseEnvelope.timestamp=2012-12-26T13%3A52%3A37.099-08%3A00&responseEnvelope.ack=Success&responseEnvelope.correlationId=2a30c854353dd&responseEnvelope.build=4110101&cancelUrl=http%3A%2F%2Fbeta.rigbag.com%2Fapp_dev.php%2Fpayment%2Fcancel%2Fpaypal%2Fbuy%2F%3Fti%3D43&currencyCode=EUR&ipnNotificationUrl=http%3A%2F%2Fbeta.rigbag.com%2Fapp_dev.php%2Fpayment%2Fipn%2F&memo=RigBag+-+advert+no.119&paymentInfoList.paymentInfo(0).transactionId=9PV12140658194712&paymentInfoList.paymentInfo(0).transactionStatus=PENDING&paymentInfoList.paymentInfo(0).receiver.amount=110.00&paymentInfoList.paymentInfo(0).receiver.email=miecho_1356265732_per%40protonlabs.co&paymentInfoList.paymentInfo(0).receiver.primary=false&paymentInfoList.paymentInfo(0).receiver.paymentType=GOODS&paymentInfoList.paymentInfo(0).refundedAmount=0.00&paymentInfoList.paymentInfo(0).pendingRefund=false&paymentInfoList.paymentInfo(0).senderTransactionId=2E131939M9318780L&paymentInfoList.paymentInfo(0).senderTransactionStatus=PENDING&paymentInfoList.paymentInfo(0).pendingReason=MULTI_CURRENCY&returnUrl=http%3A%2F%2Fbeta.rigbag.com%2Fapp_dev.php%2Fpayment%2Freturn%2Fpaypal%2Fbuy%2F%3Fti%3D43&senderEmail=bartek_1356252446_per%40protonlabs.co&status=COMPLETED&trackingId=43&payKey=AP-8NF56082G35139927&actionType=PAY&feesPayer=EACHRECEIVER&reverseAllParallelPaymentsOnError=false&sender.email=bartek_1356252446_per%40protonlabs.co&sender.useCredentials=false
+PPAPIService: Request: requestEnvelope.errorLanguage=en_US&payKey=AP-8NF56082G35139927
+PPHttpConnection: Adding header X-PAYPAL-SECURITY-USERID: maciek_1356234351_biz_api1.protonlabs.co
+PPHttpConnection: Adding header X-PAYPAL-SECURITY-PASSWORD: 1356234383
+PPHttpConnection: Adding header X-PAYPAL-SECURITY-SIGNATURE: AFcWxV21C7fd0v3bYYYRCpSSRl31AOJx9Fb0GjgHzq5th3xBO9Eb3.6w
+PPHttpConnection: Adding header X-PAYPAL-REQUEST-DATA-FORMAT: NV
+PPHttpConnection: Adding header X-PAYPAL-RESPONSE-DATA-FORMAT: NV
+PPHttpConnection: Adding header X-PAYPAL-DEVICE-IPADDRESS: 78.46.8.101
+PPHttpConnection: Adding header X-PAYPAL-REQUEST-SOURCE: adaptivepayments-php-sdk-2.1.96
+PPHttpConnection: Adding header X-PAYPAL-APPLICATION-ID: APP-80W284485P519543T
+PPAPIService: Response: responseEnvelope.timestamp=2012-12-26T13%3A55%3A09.658-08%3A00&responseEnvelope.ack=Success&responseEnvelope.correlationId=76fd4f3768757&responseEnvelope.build=4110101&cancelUrl=http%3A%2F%2Fbeta.rigbag.com%2Fapp_dev.php%2Fpayment%2Fcancel%2Fpaypal%2Fbuy%2F%3Fti%3D43&currencyCode=EUR&ipnNotificationUrl=http%3A%2F%2Fbeta.rigbag.com%2Fapp_dev.php%2Fpayment%2Fipn%2F&memo=RigBag+-+advert+no.119&paymentInfoList.paymentInfo(0).transactionId=9PV12140658194712&paymentInfoList.paymentInfo(0).transactionStatus=PENDING&paymentInfoList.paymentInfo(0).receiver.amount=110.00&paymentInfoList.paymentInfo(0).receiver.email=miecho_1356265732_per%40protonlabs.co&paymentInfoList.paymentInfo(0).receiver.primary=false&paymentInfoList.paymentInfo(0).receiver.paymentType=GOODS&paymentInfoList.paymentInfo(0).refundedAmount=0.00&paymentInfoList.paymentInfo(0).pendingRefund=false&paymentInfoList.paymentInfo(0).senderTransactionId=2E131939M9318780L&paymentInfoList.paymentInfo(0).senderTransactionStatus=PENDING&paymentInfoList.paymentInfo(0).pendingReason=MULTI_CURRENCY&returnUrl=http%3A%2F%2Fbeta.rigbag.com%2Fapp_dev.php%2Fpayment%2Freturn%2Fpaypal%2Fbuy%2F%3Fti%3D43&senderEmail=bartek_1356252446_per%40protonlabs.co&status=COMPLETED&trackingId=43&payKey=AP-8NF56082G35139927&actionType=PAY&feesPayer=EACHRECEIVER&reverseAllParallelPaymentsOnError=false&sender.email=bartek_1356252446_per%40protonlabs.co&sender.useCredentials=false
+PPAPIService: Request: requestEnvelope.errorLanguage=en_US&actionType=PAY&cancelUrl=http%3A%2F%2Fbeta.rigbag.com%2Fapp_dev.php%2Fpayment%2Fcancel%2Fpaypal%2Fbuy%2F%3Fti%3D44&currencyCode=EUR&feesPayer=EACHRECEIVER&ipnNotificationUrl=http%3A%2F%2Fbeta.rigbag.com%2Fapp_dev.php%2Fpayment%2Fipn%2F&memo=RigBag+-+advert+no.119&receiverList.receiver(0).amount=110&receiverList.receiver(0).email=miecho_1356265732_per%40protonlabs.co&receiverList.receiver(0).paymentType=GOODS&returnUrl=http%3A%2F%2Fbeta.rigbag.com%2Fapp_dev.php%2Fpayment%2Freturn%2Fpaypal%2Fbuy%2F%3Fti%3D44&trackingId=44
+PPHttpConnection: Adding header X-PAYPAL-SECURITY-USERID: maciek_1356234351_biz_api1.protonlabs.co
+PPHttpConnection: Adding header X-PAYPAL-SECURITY-PASSWORD: 1356234383
+PPHttpConnection: Adding header X-PAYPAL-SECURITY-SIGNATURE: AFcWxV21C7fd0v3bYYYRCpSSRl31AOJx9Fb0GjgHzq5th3xBO9Eb3.6w
+PPHttpConnection: Adding header X-PAYPAL-REQUEST-DATA-FORMAT: NV
+PPHttpConnection: Adding header X-PAYPAL-RESPONSE-DATA-FORMAT: NV
+PPHttpConnection: Adding header X-PAYPAL-DEVICE-IPADDRESS: 78.46.8.101
+PPHttpConnection: Adding header X-PAYPAL-REQUEST-SOURCE: adaptivepayments-php-sdk-2.1.96
+PPHttpConnection: Adding header X-PAYPAL-APPLICATION-ID: APP-80W284485P519543T
+PPAPIService: Response: responseEnvelope.timestamp=2012-12-26T13%3A57%3A28.509-08%3A00&responseEnvelope.ack=Success&responseEnvelope.correlationId=6e283cae8ed67&responseEnvelope.build=4110101&payKey=AP-3WW83681U2251573U&paymentExecStatus=CREATED
+PPAPIService: Request: requestEnvelope.errorLanguage=en_US&payKey=AP-3WW83681U2251573U
+PPHttpConnection: Adding header X-PAYPAL-SECURITY-USERID: maciek_1356234351_biz_api1.protonlabs.co
+PPHttpConnection: Adding header X-PAYPAL-SECURITY-PASSWORD: 1356234383
+PPHttpConnection: Adding header X-PAYPAL-SECURITY-SIGNATURE: AFcWxV21C7fd0v3bYYYRCpSSRl31AOJx9Fb0GjgHzq5th3xBO9Eb3.6w
+PPHttpConnection: Adding header X-PAYPAL-REQUEST-DATA-FORMAT: NV
+PPHttpConnection: Adding header X-PAYPAL-RESPONSE-DATA-FORMAT: NV
+PPHttpConnection: Adding header X-PAYPAL-DEVICE-IPADDRESS: 78.46.8.101
+PPHttpConnection: Adding header X-PAYPAL-REQUEST-SOURCE: adaptivepayments-php-sdk-2.1.96
+PPHttpConnection: Adding header X-PAYPAL-APPLICATION-ID: APP-80W284485P519543T
+PPAPIService: Response: responseEnvelope.timestamp=2012-12-26T13%3A57%3A57.818-08%3A00&responseEnvelope.ack=Success&responseEnvelope.correlationId=577a01f787909&responseEnvelope.build=4110101&cancelUrl=http%3A%2F%2Fbeta.rigbag.com%2Fapp_dev.php%2Fpayment%2Fcancel%2Fpaypal%2Fbuy%2F%3Fti%3D44&currencyCode=EUR&ipnNotificationUrl=http%3A%2F%2Fbeta.rigbag.com%2Fapp_dev.php%2Fpayment%2Fipn%2F&memo=RigBag+-+advert+no.119&paymentInfoList.paymentInfo(0).transactionId=1BY52641HK691720P&paymentInfoList.paymentInfo(0).transactionStatus=PENDING&paymentInfoList.paymentInfo(0).receiver.amount=110.00&paymentInfoList.paymentInfo(0).receiver.email=miecho_1356265732_per%40protonlabs.co&paymentInfoList.paymentInfo(0).receiver.primary=false&paymentInfoList.paymentInfo(0).receiver.paymentType=GOODS&paymentInfoList.paymentInfo(0).refundedAmount=0.00&paymentInfoList.paymentInfo(0).pendingRefund=false&paymentInfoList.paymentInfo(0).senderTransactionId=3A784516FG3197719&paymentInfoList.paymentInfo(0).senderTransactionStatus=PENDING&paymentInfoList.paymentInfo(0).pendingReason=MULTI_CURRENCY&returnUrl=http%3A%2F%2Fbeta.rigbag.com%2Fapp_dev.php%2Fpayment%2Freturn%2Fpaypal%2Fbuy%2F%3Fti%3D44&senderEmail=bartek_1356252446_per%40protonlabs.co&status=COMPLETED&trackingId=44&payKey=AP-3WW83681U2251573U&actionType=PAY&feesPayer=EACHRECEIVER&reverseAllParallelPaymentsOnError=false&sender.email=bartek_1356252446_per%40protonlabs.co&sender.useCredentials=false
+PPAPIService: Request: requestEnvelope.errorLanguage=en_US&payKey=AP-3WW83681U2251573U
+PPHttpConnection: Adding header X-PAYPAL-SECURITY-USERID: maciek_1356234351_biz_api1.protonlabs.co
+PPHttpConnection: Adding header X-PAYPAL-SECURITY-PASSWORD: 1356234383
+PPHttpConnection: Adding header X-PAYPAL-SECURITY-SIGNATURE: AFcWxV21C7fd0v3bYYYRCpSSRl31AOJx9Fb0GjgHzq5th3xBO9Eb3.6w
+PPHttpConnection: Adding header X-PAYPAL-REQUEST-DATA-FORMAT: NV
+PPHttpConnection: Adding header X-PAYPAL-RESPONSE-DATA-FORMAT: NV
+PPHttpConnection: Adding header X-PAYPAL-DEVICE-IPADDRESS: 78.46.8.101
+PPHttpConnection: Adding header X-PAYPAL-REQUEST-SOURCE: adaptivepayments-php-sdk-2.1.96
+PPHttpConnection: Adding header X-PAYPAL-APPLICATION-ID: APP-80W284485P519543T
+PPAPIService: Response: responseEnvelope.timestamp=2012-12-26T13%3A58%3A01.497-08%3A00&responseEnvelope.ack=Success&responseEnvelope.correlationId=a965288686445&responseEnvelope.build=4110101&cancelUrl=http%3A%2F%2Fbeta.rigbag.com%2Fapp_dev.php%2Fpayment%2Fcancel%2Fpaypal%2Fbuy%2F%3Fti%3D44&currencyCode=EUR&ipnNotificationUrl=http%3A%2F%2Fbeta.rigbag.com%2Fapp_dev.php%2Fpayment%2Fipn%2F&memo=RigBag+-+advert+no.119&paymentInfoList.paymentInfo(0).transactionId=1BY52641HK691720P&paymentInfoList.paymentInfo(0).transactionStatus=PENDING&paymentInfoList.paymentInfo(0).receiver.amount=110.00&paymentInfoList.paymentInfo(0).receiver.email=miecho_1356265732_per%40protonlabs.co&paymentInfoList.paymentInfo(0).receiver.primary=false&paymentInfoList.paymentInfo(0).receiver.paymentType=GOODS&paymentInfoList.paymentInfo(0).refundedAmount=0.00&paymentInfoList.paymentInfo(0).pendingRefund=false&paymentInfoList.paymentInfo(0).senderTransactionId=3A784516FG3197719&paymentInfoList.paymentInfo(0).senderTransactionStatus=PENDING&paymentInfoList.paymentInfo(0).pendingReason=MULTI_CURRENCY&returnUrl=http%3A%2F%2Fbeta.rigbag.com%2Fapp_dev.php%2Fpayment%2Freturn%2Fpaypal%2Fbuy%2F%3Fti%3D44&senderEmail=bartek_1356252446_per%40protonlabs.co&status=COMPLETED&trackingId=44&payKey=AP-3WW83681U2251573U&actionType=PAY&feesPayer=EACHRECEIVER&reverseAllParallelPaymentsOnError=false&sender.email=bartek_1356252446_per%40protonlabs.co&sender.useCredentials=false
+PPAPIService: Request: requestEnvelope.errorLanguage=en_US&actionType=PAY&cancelUrl=http%3A%2F%2Fbeta.rigbag.com%2Fapp_dev.php%2Fpayment%2Fcancel%2Fpaypal%2Fbuy%2F%3Fti%3D48&currencyCode=EUR&feesPayer=EACHRECEIVER&ipnNotificationUrl=http%3A%2F%2Fbeta.rigbag.com%2Fapp_dev.php%2Fpayment%2Fipn%2F&memo=RigBag+-+advert+no.119&receiverList.receiver(0).amount=110&receiverList.receiver(0).email=miecho_1356265732_per%40protonlabs.co&receiverList.receiver(0).paymentType=GOODS&returnUrl=http%3A%2F%2Fbeta.rigbag.com%2Fapp_dev.php%2Fpayment%2Freturn%2Fpaypal%2Fbuy%2F%3Fti%3D48&trackingId=48
+PPHttpConnection: Adding header X-PAYPAL-SECURITY-USERID: maciek_1356234351_biz_api1.protonlabs.co
+PPHttpConnection: Adding header X-PAYPAL-SECURITY-PASSWORD: 1356234383
+PPHttpConnection: Adding header X-PAYPAL-SECURITY-SIGNATURE: AFcWxV21C7fd0v3bYYYRCpSSRl31AOJx9Fb0GjgHzq5th3xBO9Eb3.6w
+PPHttpConnection: Adding header X-PAYPAL-REQUEST-DATA-FORMAT: NV
+PPHttpConnection: Adding header X-PAYPAL-RESPONSE-DATA-FORMAT: NV
+PPHttpConnection: Adding header X-PAYPAL-DEVICE-IPADDRESS: 78.46.8.101
+PPHttpConnection: Adding header X-PAYPAL-REQUEST-SOURCE: adaptivepayments-php-sdk-2.1.96
+PPHttpConnection: Adding header X-PAYPAL-APPLICATION-ID: APP-80W284485P519543T
+PPAPIService: Response: responseEnvelope.timestamp=2012-12-26T14%3A27%3A54.372-08%3A00&responseEnvelope.ack=Success&responseEnvelope.correlationId=995711dc48f35&responseEnvelope.build=4110101&payKey=AP-9H090239WD8501020&paymentExecStatus=CREATED
+PPAPIService: Request: requestEnvelope.errorLanguage=en_US&payKey=AP-9H090239WD8501020
+PPHttpConnection: Adding header X-PAYPAL-SECURITY-USERID: maciek_1356234351_biz_api1.protonlabs.co
+PPHttpConnection: Adding header X-PAYPAL-SECURITY-PASSWORD: 1356234383
+PPHttpConnection: Adding header X-PAYPAL-SECURITY-SIGNATURE: AFcWxV21C7fd0v3bYYYRCpSSRl31AOJx9Fb0GjgHzq5th3xBO9Eb3.6w
+PPHttpConnection: Adding header X-PAYPAL-REQUEST-DATA-FORMAT: NV
+PPHttpConnection: Adding header X-PAYPAL-RESPONSE-DATA-FORMAT: NV
+PPHttpConnection: Adding header X-PAYPAL-DEVICE-IPADDRESS: 78.46.8.101
+PPHttpConnection: Adding header X-PAYPAL-REQUEST-SOURCE: adaptivepayments-php-sdk-2.1.96
+PPHttpConnection: Adding header X-PAYPAL-APPLICATION-ID: APP-80W284485P519543T
+PPAPIService: Response: responseEnvelope.timestamp=2012-12-26T14%3A32%3A11.358-08%3A00&responseEnvelope.ack=Success&responseEnvelope.correlationId=55a0ec9b8a5cd&responseEnvelope.build=4110101&cancelUrl=http%3A%2F%2Fbeta.rigbag.com%2Fapp_dev.php%2Fpayment%2Fcancel%2Fpaypal%2Fbuy%2F%3Fti%3D48&currencyCode=EUR&ipnNotificationUrl=http%3A%2F%2Fbeta.rigbag.com%2Fapp_dev.php%2Fpayment%2Fipn%2F&memo=RigBag+-+advert+no.119&paymentInfoList.paymentInfo(0).transactionId=0FE01311WD1072000&paymentInfoList.paymentInfo(0).transactionStatus=PENDING&paymentInfoList.paymentInfo(0).receiver.amount=110.00&paymentInfoList.paymentInfo(0).receiver.email=miecho_1356265732_per%40protonlabs.co&paymentInfoList.paymentInfo(0).receiver.primary=false&paymentInfoList.paymentInfo(0).receiver.paymentType=GOODS&paymentInfoList.paymentInfo(0).refundedAmount=0.00&paymentInfoList.paymentInfo(0).pendingRefund=false&paymentInfoList.paymentInfo(0).senderTransactionId=2WS41409SR4505435&paymentInfoList.paymentInfo(0).senderTransactionStatus=PENDING&paymentInfoList.paymentInfo(0).pendingReason=MULTI_CURRENCY&returnUrl=http%3A%2F%2Fbeta.rigbag.com%2Fapp_dev.php%2Fpayment%2Freturn%2Fpaypal%2Fbuy%2F%3Fti%3D48&senderEmail=bartek_1356252446_per%40protonlabs.co&status=COMPLETED&trackingId=48&payKey=AP-9H090239WD8501020&actionType=PAY&feesPayer=EACHRECEIVER&reverseAllParallelPaymentsOnError=false&sender.email=bartek_1356252446_per%40protonlabs.co&sender.useCredentials=false
+PPAPIService: Request: requestEnvelope.errorLanguage=en_US&actionType=PAY&cancelUrl=http%3A%2F%2Fbeta.rigbag.com%2Fapp_dev.php%2Fpayment%2Fcancel%2Fpaypal%2Fbuy%2F%3Fti%3D49&currencyCode=EUR&feesPayer=EACHRECEIVER&ipnNotificationUrl=http%3A%2F%2Fbeta.rigbag.com%2Fapp_dev.php%2Fpayment%2Fipn%2F&memo=RigBag+-+advert+no.119&receiverList.receiver(0).amount=110&receiverList.receiver(0).email=miecho_1356265732_per%40protonlabs.co&receiverList.receiver(0).paymentType=GOODS&returnUrl=http%3A%2F%2Fbeta.rigbag.com%2Fapp_dev.php%2Fpayment%2Freturn%2Fpaypal%2Fbuy%2F%3Fti%3D49&trackingId=49
+PPHttpConnection: Adding header X-PAYPAL-SECURITY-USERID: maciek_1356234351_biz_api1.protonlabs.co
+PPHttpConnection: Adding header X-PAYPAL-SECURITY-PASSWORD: 1356234383
+PPHttpConnection: Adding header X-PAYPAL-SECURITY-SIGNATURE: AFcWxV21C7fd0v3bYYYRCpSSRl31AOJx9Fb0GjgHzq5th3xBO9Eb3.6w
+PPHttpConnection: Adding header X-PAYPAL-REQUEST-DATA-FORMAT: NV
+PPHttpConnection: Adding header X-PAYPAL-RESPONSE-DATA-FORMAT: NV
+PPHttpConnection: Adding header X-PAYPAL-DEVICE-IPADDRESS: 78.46.8.101
+PPHttpConnection: Adding header X-PAYPAL-REQUEST-SOURCE: adaptivepayments-php-sdk-2.1.96
+PPHttpConnection: Adding header X-PAYPAL-APPLICATION-ID: APP-80W284485P519543T
+PPAPIService: Response: responseEnvelope.timestamp=2012-12-26T14%3A36%3A15.733-08%3A00&responseEnvelope.ack=Success&responseEnvelope.correlationId=6b394f9eb6629&responseEnvelope.build=4110101&payKey=AP-7VY48781MW2407831&paymentExecStatus=CREATED
+PPAPIService: Request: requestEnvelope.errorLanguage=en_US&payKey=AP-7VY48781MW2407831
+PPHttpConnection: Adding header X-PAYPAL-SECURITY-USERID: maciek_1356234351_biz_api1.protonlabs.co
+PPHttpConnection: Adding header X-PAYPAL-SECURITY-PASSWORD: 1356234383
+PPHttpConnection: Adding header X-PAYPAL-SECURITY-SIGNATURE: AFcWxV21C7fd0v3bYYYRCpSSRl31AOJx9Fb0GjgHzq5th3xBO9Eb3.6w
+PPHttpConnection: Adding header X-PAYPAL-REQUEST-DATA-FORMAT: NV
+PPHttpConnection: Adding header X-PAYPAL-RESPONSE-DATA-FORMAT: NV
+PPHttpConnection: Adding header X-PAYPAL-DEVICE-IPADDRESS: 78.46.8.101
+PPHttpConnection: Adding header X-PAYPAL-REQUEST-SOURCE: adaptivepayments-php-sdk-2.1.96
+PPHttpConnection: Adding header X-PAYPAL-APPLICATION-ID: APP-80W284485P519543T
+PPAPIService: Response: responseEnvelope.timestamp=2012-12-26T14%3A36%3A51.760-08%3A00&responseEnvelope.ack=Success&responseEnvelope.correlationId=9941449acdd2b&responseEnvelope.build=4110101&cancelUrl=http%3A%2F%2Fbeta.rigbag.com%2Fapp_dev.php%2Fpayment%2Fcancel%2Fpaypal%2Fbuy%2F%3Fti%3D49&currencyCode=EUR&ipnNotificationUrl=http%3A%2F%2Fbeta.rigbag.com%2Fapp_dev.php%2Fpayment%2Fipn%2F&memo=RigBag+-+advert+no.119&paymentInfoList.paymentInfo(0).transactionId=0CG778249N1989209&paymentInfoList.paymentInfo(0).transactionStatus=PENDING&paymentInfoList.paymentInfo(0).receiver.amount=110.00&paymentInfoList.paymentInfo(0).receiver.email=miecho_1356265732_per%40protonlabs.co&paymentInfoList.paymentInfo(0).receiver.primary=false&paymentInfoList.paymentInfo(0).receiver.paymentType=GOODS&paymentInfoList.paymentInfo(0).refundedAmount=0.00&paymentInfoList.paymentInfo(0).pendingRefund=false&paymentInfoList.paymentInfo(0).senderTransactionId=4NG86371E2247344K&paymentInfoList.paymentInfo(0).senderTransactionStatus=PENDING&paymentInfoList.paymentInfo(0).pendingReason=MULTI_CURRENCY&returnUrl=http%3A%2F%2Fbeta.rigbag.com%2Fapp_dev.php%2Fpayment%2Freturn%2Fpaypal%2Fbuy%2F%3Fti%3D49&senderEmail=bartek_1356252446_per%40protonlabs.co&status=COMPLETED&trackingId=49&payKey=AP-7VY48781MW2407831&actionType=PAY&feesPayer=EACHRECEIVER&reverseAllParallelPaymentsOnError=false&sender.email=bartek_1356252446_per%40protonlabs.co&sender.useCredentials=false
+PPAPIService: Request: requestEnvelope.errorLanguage=en_US&actionType=PAY&cancelUrl=http%3A%2F%2Fbeta.rigbag.com%2Fpayment%2Fcancel%2Fpaypal%2Fbuy%2F%3Fti%3D51&currencyCode=EUR&feesPayer=EACHRECEIVER&ipnNotificationUrl=http%3A%2F%2Fbeta.rigbag.com%2Fpayment%2Fipn%2F&memo=RigBag+-+advert+no.95&receiverList.receiver(0).amount=80&receiverList.receiver(0).email=miecho_1356265732_per%40protonlabs.co&receiverList.receiver(0).paymentType=GOODS&returnUrl=http%3A%2F%2Fbeta.rigbag.com%2Fpayment%2Freturn%2Fpaypal%2Fbuy%2F%3Fti%3D51&trackingId=51
+PPHttpConnection: Adding header X-PAYPAL-SECURITY-USERID: maciek_1356234351_biz_api1.protonlabs.co
+PPHttpConnection: Adding header X-PAYPAL-SECURITY-PASSWORD: 1356234383
+PPHttpConnection: Adding header X-PAYPAL-SECURITY-SIGNATURE: AFcWxV21C7fd0v3bYYYRCpSSRl31AOJx9Fb0GjgHzq5th3xBO9Eb3.6w
+PPHttpConnection: Adding header X-PAYPAL-REQUEST-DATA-FORMAT: NV
+PPHttpConnection: Adding header X-PAYPAL-RESPONSE-DATA-FORMAT: NV
+PPHttpConnection: Adding header X-PAYPAL-DEVICE-IPADDRESS: 78.46.8.101
+PPHttpConnection: Adding header X-PAYPAL-REQUEST-SOURCE: adaptivepayments-php-sdk-2.1.96
+PPHttpConnection: Adding header X-PAYPAL-APPLICATION-ID: APP-80W284485P519543T
+PPAPIService: Response: responseEnvelope.timestamp=2012-12-26T14%3A54%3A50.249-08%3A00&responseEnvelope.ack=Success&responseEnvelope.correlationId=166542a6c5d9c&responseEnvelope.build=4110101&payKey=AP-8UN80496T23341020&paymentExecStatus=CREATED
+PPAPIService: Request: requestEnvelope.errorLanguage=en_US&payKey=AP-8UN80496T23341020
+PPHttpConnection: Adding header X-PAYPAL-SECURITY-USERID: maciek_1356234351_biz_api1.protonlabs.co
+PPHttpConnection: Adding header X-PAYPAL-SECURITY-PASSWORD: 1356234383
+PPHttpConnection: Adding header X-PAYPAL-SECURITY-SIGNATURE: AFcWxV21C7fd0v3bYYYRCpSSRl31AOJx9Fb0GjgHzq5th3xBO9Eb3.6w
+PPHttpConnection: Adding header X-PAYPAL-REQUEST-DATA-FORMAT: NV
+PPHttpConnection: Adding header X-PAYPAL-RESPONSE-DATA-FORMAT: NV
+PPHttpConnection: Adding header X-PAYPAL-DEVICE-IPADDRESS: 78.46.8.101
+PPHttpConnection: Adding header X-PAYPAL-REQUEST-SOURCE: adaptivepayments-php-sdk-2.1.96
+PPHttpConnection: Adding header X-PAYPAL-APPLICATION-ID: APP-80W284485P519543T
+PPAPIService: Request: requestEnvelope.errorLanguage=en_US&payKey=AP-8UN80496T23341020
+PPHttpConnection: Adding header X-PAYPAL-SECURITY-USERID: maciek_1356234351_biz_api1.protonlabs.co
+PPHttpConnection: Adding header X-PAYPAL-SECURITY-PASSWORD: 1356234383
+PPHttpConnection: Adding header X-PAYPAL-SECURITY-SIGNATURE: AFcWxV21C7fd0v3bYYYRCpSSRl31AOJx9Fb0GjgHzq5th3xBO9Eb3.6w
+PPHttpConnection: Adding header X-PAYPAL-REQUEST-DATA-FORMAT: NV
+PPHttpConnection: Adding header X-PAYPAL-RESPONSE-DATA-FORMAT: NV
+PPHttpConnection: Adding header X-PAYPAL-DEVICE-IPADDRESS: 78.46.8.101
+PPHttpConnection: Adding header X-PAYPAL-REQUEST-SOURCE: adaptivepayments-php-sdk-2.1.96
+PPHttpConnection: Adding header X-PAYPAL-APPLICATION-ID: APP-80W284485P519543T
+PPAPIService: Response: responseEnvelope.timestamp=2012-12-26T14%3A55%3A31.548-08%3A00&responseEnvelope.ack=Success&responseEnvelope.correlationId=2a336ee6dc6f0&responseEnvelope.build=4110101&cancelUrl=http%3A%2F%2Fbeta.rigbag.com%2Fpayment%2Fcancel%2Fpaypal%2Fbuy%2F%3Fti%3D51&currencyCode=EUR&ipnNotificationUrl=http%3A%2F%2Fbeta.rigbag.com%2Fpayment%2Fipn%2F&memo=RigBag+-+advert+no.95&paymentInfoList.paymentInfo(0).transactionId=4BT76680PS490962B&paymentInfoList.paymentInfo(0).transactionStatus=PENDING&paymentInfoList.paymentInfo(0).receiver.amount=80.00&paymentInfoList.paymentInfo(0).receiver.email=miecho_1356265732_per%40protonlabs.co&paymentInfoList.paymentInfo(0).receiver.primary=false&paymentInfoList.paymentInfo(0).receiver.paymentType=GOODS&paymentInfoList.paymentInfo(0).refundedAmount=0.00&paymentInfoList.paymentInfo(0).pendingRefund=false&paymentInfoList.paymentInfo(0).senderTransactionId=9S1477810E7273641&paymentInfoList.paymentInfo(0).senderTransactionStatus=PENDING&paymentInfoList.paymentInfo(0).pendingReason=MULTI_CURRENCY&returnUrl=http%3A%2F%2Fbeta.rigbag.com%2Fpayment%2Freturn%2Fpaypal%2Fbuy%2F%3Fti%3D51&senderEmail=bartek_1356252446_per%40protonlabs.co&status=COMPLETED&trackingId=51&payKey=AP-8UN80496T23341020&actionType=PAY&feesPayer=EACHRECEIVER&reverseAllParallelPaymentsOnError=false&sender.email=bartek_1356252446_per%40protonlabs.co&sender.useCredentials=false
+PPAPIService: Response: responseEnvelope.timestamp=2012-12-26T14%3A55%3A34.592-08%3A00&responseEnvelope.ack=Success&responseEnvelope.correlationId=7d91a07fd3be1&responseEnvelope.build=4110101&cancelUrl=http%3A%2F%2Fbeta.rigbag.com%2Fpayment%2Fcancel%2Fpaypal%2Fbuy%2F%3Fti%3D51&currencyCode=EUR&ipnNotificationUrl=http%3A%2F%2Fbeta.rigbag.com%2Fpayment%2Fipn%2F&memo=RigBag+-+advert+no.95&paymentInfoList.paymentInfo(0).transactionId=4BT76680PS490962B&paymentInfoList.paymentInfo(0).transactionStatus=PENDING&paymentInfoList.paymentInfo(0).receiver.amount=80.00&paymentInfoList.paymentInfo(0).receiver.email=miecho_1356265732_per%40protonlabs.co&paymentInfoList.paymentInfo(0).receiver.primary=false&paymentInfoList.paymentInfo(0).receiver.paymentType=GOODS&paymentInfoList.paymentInfo(0).refundedAmount=0.00&paymentInfoList.paymentInfo(0).pendingRefund=false&paymentInfoList.paymentInfo(0).senderTransactionId=9S1477810E7273641&paymentInfoList.paymentInfo(0).senderTransactionStatus=PENDING&paymentInfoList.paymentInfo(0).pendingReason=MULTI_CURRENCY&returnUrl=http%3A%2F%2Fbeta.rigbag.com%2Fpayment%2Freturn%2Fpaypal%2Fbuy%2F%3Fti%3D51&senderEmail=bartek_1356252446_per%40protonlabs.co&status=COMPLETED&trackingId=51&payKey=AP-8UN80496T23341020&actionType=PAY&feesPayer=EACHRECEIVER&reverseAllParallelPaymentsOnError=false&sender.email=bartek_1356252446_per%40protonlabs.co&sender.useCredentials=false
+PPAPIService: Request: requestEnvelope.errorLanguage=en_US&actionType=PAY&cancelUrl=http%3A%2F%2Fbeta.rigbag.com%2Fpayment%2Fcancel%2Fpaypal%2Fbuy%2F%3Fti%3D52&currencyCode=EUR&feesPayer=EACHRECEIVER&ipnNotificationUrl=http%3A%2F%2Fbeta.rigbag.com%2Fpayment%2Fipn%2F&memo=RigBag+-+advert+no.118&receiverList.receiver(0).amount=110&receiverList.receiver(0).email=miecho_1356265732_per%40protonlabs.co&receiverList.receiver(0).paymentType=GOODS&returnUrl=http%3A%2F%2Fbeta.rigbag.com%2Fpayment%2Freturn%2Fpaypal%2Fbuy%2F%3Fti%3D52&trackingId=52
+PPHttpConnection: Adding header X-PAYPAL-SECURITY-USERID: maciek_1356234351_biz_api1.protonlabs.co
+PPHttpConnection: Adding header X-PAYPAL-SECURITY-PASSWORD: 1356234383
+PPHttpConnection: Adding header X-PAYPAL-SECURITY-SIGNATURE: AFcWxV21C7fd0v3bYYYRCpSSRl31AOJx9Fb0GjgHzq5th3xBO9Eb3.6w
+PPHttpConnection: Adding header X-PAYPAL-REQUEST-DATA-FORMAT: NV
+PPHttpConnection: Adding header X-PAYPAL-RESPONSE-DATA-FORMAT: NV
+PPHttpConnection: Adding header X-PAYPAL-DEVICE-IPADDRESS: 78.46.8.101
+PPHttpConnection: Adding header X-PAYPAL-REQUEST-SOURCE: adaptivepayments-php-sdk-2.1.96
+PPHttpConnection: Adding header X-PAYPAL-APPLICATION-ID: APP-80W284485P519543T
+PPAPIService: Response: responseEnvelope.timestamp=2012-12-26T14%3A57%3A41.376-08%3A00&responseEnvelope.ack=Success&responseEnvelope.correlationId=8f6949b2fc17a&responseEnvelope.build=4110101&payKey=AP-0J313083U67418923&paymentExecStatus=CREATED
+PPAPIService: Request: requestEnvelope.errorLanguage=en_US&payKey=AP-0J313083U67418923
+PPHttpConnection: Adding header X-PAYPAL-SECURITY-USERID: maciek_1356234351_biz_api1.protonlabs.co
+PPHttpConnection: Adding header X-PAYPAL-SECURITY-PASSWORD: 1356234383
+PPHttpConnection: Adding header X-PAYPAL-SECURITY-SIGNATURE: AFcWxV21C7fd0v3bYYYRCpSSRl31AOJx9Fb0GjgHzq5th3xBO9Eb3.6w
+PPHttpConnection: Adding header X-PAYPAL-REQUEST-DATA-FORMAT: NV
+PPHttpConnection: Adding header X-PAYPAL-RESPONSE-DATA-FORMAT: NV
+PPHttpConnection: Adding header X-PAYPAL-DEVICE-IPADDRESS: 78.46.8.101
+PPHttpConnection: Adding header X-PAYPAL-REQUEST-SOURCE: adaptivepayments-php-sdk-2.1.96
+PPHttpConnection: Adding header X-PAYPAL-APPLICATION-ID: APP-80W284485P519543T
+PPAPIService: Response: responseEnvelope.timestamp=2012-12-26T14%3A58%3A17.722-08%3A00&responseEnvelope.ack=Success&responseEnvelope.correlationId=54eb41e00b935&responseEnvelope.build=4110101&cancelUrl=http%3A%2F%2Fbeta.rigbag.com%2Fpayment%2Fcancel%2Fpaypal%2Fbuy%2F%3Fti%3D52&currencyCode=EUR&ipnNotificationUrl=http%3A%2F%2Fbeta.rigbag.com%2Fpayment%2Fipn%2F&memo=RigBag+-+advert+no.118&paymentInfoList.paymentInfo(0).transactionId=4X8710053B179653N&paymentInfoList.paymentInfo(0).transactionStatus=PENDING&paymentInfoList.paymentInfo(0).receiver.amount=110.00&paymentInfoList.paymentInfo(0).receiver.email=miecho_1356265732_per%40protonlabs.co&paymentInfoList.paymentInfo(0).receiver.primary=false&paymentInfoList.paymentInfo(0).receiver.paymentType=GOODS&paymentInfoList.paymentInfo(0).refundedAmount=0.00&paymentInfoList.paymentInfo(0).pendingRefund=false&paymentInfoList.paymentInfo(0).senderTransactionId=2VC83033E57376349&paymentInfoList.paymentInfo(0).senderTransactionStatus=PENDING&paymentInfoList.paymentInfo(0).pendingReason=MULTI_CURRENCY&returnUrl=http%3A%2F%2Fbeta.rigbag.com%2Fpayment%2Freturn%2Fpaypal%2Fbuy%2F%3Fti%3D52&senderEmail=bartek_1356252446_per%40protonlabs.co&status=COMPLETED&trackingId=52&payKey=AP-0J313083U67418923&actionType=PAY&feesPayer=EACHRECEIVER&reverseAllParallelPaymentsOnError=false&sender.email=bartek_1356252446_per%40protonlabs.co&sender.useCredentials=false
+PPAPIService: Request: requestEnvelope.errorLanguage=en_US&actionType=PAY&cancelUrl=http%3A%2F%2Fbeta.rigbag.com%2Fpayment%2Fcancel%2Fpaypal%2Fbuy%2F%3Fti%3D53&currencyCode=EUR&feesPayer=EACHRECEIVER&ipnNotificationUrl=http%3A%2F%2Fbeta.rigbag.com%2Fpayment%2Fipn%2F&memo=RigBag+-+advert+no.82&receiverList.receiver(0).amount=50&receiverList.receiver(0).email=miecho_1356265732_per%40protonlabs.co&receiverList.receiver(0).paymentType=GOODS&returnUrl=http%3A%2F%2Fbeta.rigbag.com%2Fpayment%2Freturn%2Fpaypal%2Fbuy%2F%3Fti%3D53&trackingId=53
+PPHttpConnection: Adding header X-PAYPAL-SECURITY-USERID: maciek_1356234351_biz_api1.protonlabs.co
+PPHttpConnection: Adding header X-PAYPAL-SECURITY-PASSWORD: 1356234383
+PPHttpConnection: Adding header X-PAYPAL-SECURITY-SIGNATURE: AFcWxV21C7fd0v3bYYYRCpSSRl31AOJx9Fb0GjgHzq5th3xBO9Eb3.6w
+PPHttpConnection: Adding header X-PAYPAL-REQUEST-DATA-FORMAT: NV
+PPHttpConnection: Adding header X-PAYPAL-RESPONSE-DATA-FORMAT: NV
+PPHttpConnection: Adding header X-PAYPAL-DEVICE-IPADDRESS: 78.46.8.101
+PPHttpConnection: Adding header X-PAYPAL-REQUEST-SOURCE: adaptivepayments-php-sdk-2.1.96
+PPHttpConnection: Adding header X-PAYPAL-APPLICATION-ID: APP-80W284485P519543T
+PPAPIService: Response: responseEnvelope.timestamp=2012-12-26T15%3A03%3A16.225-08%3A00&responseEnvelope.ack=Success&responseEnvelope.correlationId=b0796eb3426e5&responseEnvelope.build=4110101&payKey=AP-3RM083131T571741U&paymentExecStatus=CREATED
+PPAPIService: Request: requestEnvelope.errorLanguage=en_US&actionType=PAY&cancelUrl=http%3A%2F%2Fbeta.rigbag.com%2Fpayment%2Fcancel%2Fpaypal%2Fbuy%2F%3Fti%3D54&currencyCode=EUR&feesPayer=EACHRECEIVER&ipnNotificationUrl=http%3A%2F%2Fbeta.rigbag.com%2Fpayment%2Fipn%2F&memo=RigBag+-+advert+no.98&receiverList.receiver(0).amount=80&receiverList.receiver(0).email=miecho_1356265732_per%40protonlabs.co&receiverList.receiver(0).paymentType=GOODS&returnUrl=http%3A%2F%2Fbeta.rigbag.com%2Fpayment%2Freturn%2Fpaypal%2Fbuy%2F%3Fti%3D54&trackingId=54
+PPHttpConnection: Adding header X-PAYPAL-SECURITY-USERID: maciek_1356234351_biz_api1.protonlabs.co
+PPHttpConnection: Adding header X-PAYPAL-SECURITY-PASSWORD: 1356234383
+PPHttpConnection: Adding header X-PAYPAL-SECURITY-SIGNATURE: AFcWxV21C7fd0v3bYYYRCpSSRl31AOJx9Fb0GjgHzq5th3xBO9Eb3.6w
+PPHttpConnection: Adding header X-PAYPAL-REQUEST-DATA-FORMAT: NV
+PPHttpConnection: Adding header X-PAYPAL-RESPONSE-DATA-FORMAT: NV
+PPHttpConnection: Adding header X-PAYPAL-DEVICE-IPADDRESS: 78.46.8.101
+PPHttpConnection: Adding header X-PAYPAL-REQUEST-SOURCE: adaptivepayments-php-sdk-2.1.96
+PPHttpConnection: Adding header X-PAYPAL-APPLICATION-ID: APP-80W284485P519543T
+PPAPIService: Response: responseEnvelope.timestamp=2012-12-26T15%3A05%3A05.198-08%3A00&responseEnvelope.ack=Success&responseEnvelope.correlationId=3cac00366fd38&responseEnvelope.build=4110101&payKey=AP-41R234557P875870V&paymentExecStatus=CREATED
+PPAPIService: Request: requestEnvelope.errorLanguage=en_US&actionType=PAY&cancelUrl=http%3A%2F%2Fbeta.rigbag.com%2Fpayment%2Fcancel%2Fpaypal%2Fbuy%2F%3Fti%3D55&currencyCode=EUR&feesPayer=EACHRECEIVER&ipnNotificationUrl=http%3A%2F%2Fbeta.rigbag.com%2Fpayment%2Fipn%2F&memo=RigBag+-+advert+no.98&receiverList.receiver(0).amount=80&receiverList.receiver(0).email=miecho_1356265732_per%40protonlabs.co&receiverList.receiver(0).paymentType=GOODS&returnUrl=http%3A%2F%2Fbeta.rigbag.com%2Fpayment%2Freturn%2Fpaypal%2Fbuy%2F%3Fti%3D55&trackingId=55
+PPHttpConnection: Adding header X-PAYPAL-SECURITY-USERID: maciek_1356234351_biz_api1.protonlabs.co
+PPHttpConnection: Adding header X-PAYPAL-SECURITY-PASSWORD: 1356234383
+PPHttpConnection: Adding header X-PAYPAL-SECURITY-SIGNATURE: AFcWxV21C7fd0v3bYYYRCpSSRl31AOJx9Fb0GjgHzq5th3xBO9Eb3.6w
+PPHttpConnection: Adding header X-PAYPAL-REQUEST-DATA-FORMAT: NV
+PPHttpConnection: Adding header X-PAYPAL-RESPONSE-DATA-FORMAT: NV
+PPHttpConnection: Adding header X-PAYPAL-DEVICE-IPADDRESS: 78.46.8.101
+PPHttpConnection: Adding header X-PAYPAL-REQUEST-SOURCE: adaptivepayments-php-sdk-2.1.96
+PPHttpConnection: Adding header X-PAYPAL-APPLICATION-ID: APP-80W284485P519543T
+PPAPIService: Response: responseEnvelope.timestamp=2012-12-26T15%3A06%3A28.322-08%3A00&responseEnvelope.ack=Success&responseEnvelope.correlationId=3cde854d747e2&responseEnvelope.build=4110101&payKey=AP-0LL92490VW3663134&paymentExecStatus=CREATED
+PPAPIService: Request: requestEnvelope.errorLanguage=en_US&payKey=AP-0LL92490VW3663134
+PPHttpConnection: Adding header X-PAYPAL-SECURITY-USERID: maciek_1356234351_biz_api1.protonlabs.co
+PPHttpConnection: Adding header X-PAYPAL-SECURITY-PASSWORD: 1356234383
+PPHttpConnection: Adding header X-PAYPAL-SECURITY-SIGNATURE: AFcWxV21C7fd0v3bYYYRCpSSRl31AOJx9Fb0GjgHzq5th3xBO9Eb3.6w
+PPHttpConnection: Adding header X-PAYPAL-REQUEST-DATA-FORMAT: NV
+PPHttpConnection: Adding header X-PAYPAL-RESPONSE-DATA-FORMAT: NV
+PPHttpConnection: Adding header X-PAYPAL-DEVICE-IPADDRESS: 78.46.8.101
+PPHttpConnection: Adding header X-PAYPAL-REQUEST-SOURCE: adaptivepayments-php-sdk-2.1.96
+PPHttpConnection: Adding header X-PAYPAL-APPLICATION-ID: APP-80W284485P519543T
+PPAPIService: Request: requestEnvelope.errorLanguage=en_US&payKey=AP-0LL92490VW3663134
+PPHttpConnection: Adding header X-PAYPAL-SECURITY-USERID: maciek_1356234351_biz_api1.protonlabs.co
+PPHttpConnection: Adding header X-PAYPAL-SECURITY-PASSWORD: 1356234383
+PPHttpConnection: Adding header X-PAYPAL-SECURITY-SIGNATURE: AFcWxV21C7fd0v3bYYYRCpSSRl31AOJx9Fb0GjgHzq5th3xBO9Eb3.6w
+PPHttpConnection: Adding header X-PAYPAL-REQUEST-DATA-FORMAT: NV
+PPHttpConnection: Adding header X-PAYPAL-RESPONSE-DATA-FORMAT: NV
+PPHttpConnection: Adding header X-PAYPAL-DEVICE-IPADDRESS: 78.46.8.101
+PPHttpConnection: Adding header X-PAYPAL-REQUEST-SOURCE: adaptivepayments-php-sdk-2.1.96
+PPHttpConnection: Adding header X-PAYPAL-APPLICATION-ID: APP-80W284485P519543T
+PPAPIService: Response: responseEnvelope.timestamp=2012-12-26T15%3A07%3A21.405-08%3A00&responseEnvelope.ack=Success&responseEnvelope.correlationId=7e87f5aa88fc7&responseEnvelope.build=4110101&cancelUrl=http%3A%2F%2Fbeta.rigbag.com%2Fpayment%2Fcancel%2Fpaypal%2Fbuy%2F%3Fti%3D55&currencyCode=EUR&ipnNotificationUrl=http%3A%2F%2Fbeta.rigbag.com%2Fpayment%2Fipn%2F&memo=RigBag+-+advert+no.98&paymentInfoList.paymentInfo(0).transactionId=1VL32861L6664423X&paymentInfoList.paymentInfo(0).transactionStatus=PENDING&paymentInfoList.paymentInfo(0).receiver.amount=80.00&paymentInfoList.paymentInfo(0).receiver.email=miecho_1356265732_per%40protonlabs.co&paymentInfoList.paymentInfo(0).receiver.primary=false&paymentInfoList.paymentInfo(0).receiver.paymentType=GOODS&paymentInfoList.paymentInfo(0).refundedAmount=0.00&paymentInfoList.paymentInfo(0).pendingRefund=false&paymentInfoList.paymentInfo(0).senderTransactionId=0R839239SF911640J&paymentInfoList.paymentInfo(0).senderTransactionStatus=PENDING&paymentInfoList.paymentInfo(0).pendingReason=MULTI_CURRENCY&returnUrl=http%3A%2F%2Fbeta.rigbag.com%2Fpayment%2Freturn%2Fpaypal%2Fbuy%2F%3Fti%3D55&senderEmail=bartek_1356252446_per%40protonlabs.co&status=COMPLETED&trackingId=55&payKey=AP-0LL92490VW3663134&actionType=PAY&feesPayer=EACHRECEIVER&reverseAllParallelPaymentsOnError=false&sender.email=bartek_1356252446_per%40protonlabs.co&sender.useCredentials=false
+PPAPIService: Request: requestEnvelope.errorLanguage=en_US&payKey=AP-0LL92490VW3663134
+PPHttpConnection: Adding header X-PAYPAL-SECURITY-USERID: maciek_1356234351_biz_api1.protonlabs.co
+PPHttpConnection: Adding header X-PAYPAL-SECURITY-PASSWORD: 1356234383
+PPHttpConnection: Adding header X-PAYPAL-SECURITY-SIGNATURE: AFcWxV21C7fd0v3bYYYRCpSSRl31AOJx9Fb0GjgHzq5th3xBO9Eb3.6w
+PPHttpConnection: Adding header X-PAYPAL-REQUEST-DATA-FORMAT: NV
+PPHttpConnection: Adding header X-PAYPAL-RESPONSE-DATA-FORMAT: NV
+PPHttpConnection: Adding header X-PAYPAL-DEVICE-IPADDRESS: 78.46.8.101
+PPHttpConnection: Adding header X-PAYPAL-REQUEST-SOURCE: adaptivepayments-php-sdk-2.1.96
+PPHttpConnection: Adding header X-PAYPAL-APPLICATION-ID: APP-80W284485P519543T
+PPAPIService: Response: responseEnvelope.timestamp=2012-12-26T15%3A07%3A24.365-08%3A00&responseEnvelope.ack=Success&responseEnvelope.correlationId=2be4c35889cdc&responseEnvelope.build=4110101&cancelUrl=http%3A%2F%2Fbeta.rigbag.com%2Fpayment%2Fcancel%2Fpaypal%2Fbuy%2F%3Fti%3D55&currencyCode=EUR&ipnNotificationUrl=http%3A%2F%2Fbeta.rigbag.com%2Fpayment%2Fipn%2F&memo=RigBag+-+advert+no.98&paymentInfoList.paymentInfo(0).transactionId=1VL32861L6664423X&paymentInfoList.paymentInfo(0).transactionStatus=PENDING&paymentInfoList.paymentInfo(0).receiver.amount=80.00&paymentInfoList.paymentInfo(0).receiver.email=miecho_1356265732_per%40protonlabs.co&paymentInfoList.paymentInfo(0).receiver.primary=false&paymentInfoList.paymentInfo(0).receiver.paymentType=GOODS&paymentInfoList.paymentInfo(0).refundedAmount=0.00&paymentInfoList.paymentInfo(0).pendingRefund=false&paymentInfoList.paymentInfo(0).senderTransactionId=0R839239SF911640J&paymentInfoList.paymentInfo(0).senderTransactionStatus=PENDING&paymentInfoList.paymentInfo(0).pendingReason=MULTI_CURRENCY&returnUrl=http%3A%2F%2Fbeta.rigbag.com%2Fpayment%2Freturn%2Fpaypal%2Fbuy%2F%3Fti%3D55&senderEmail=bartek_1356252446_per%40protonlabs.co&status=COMPLETED&trackingId=55&payKey=AP-0LL92490VW3663134&actionType=PAY&feesPayer=EACHRECEIVER&reverseAllParallelPaymentsOnError=false&sender.email=bartek_1356252446_per%40protonlabs.co&sender.useCredentials=false
+PPAPIService: Response: responseEnvelope.timestamp=2012-12-26T15%3A07%3A25.647-08%3A00&responseEnvelope.ack=Success&responseEnvelope.correlationId=3f6376198a06d&responseEnvelope.build=4110101&cancelUrl=http%3A%2F%2Fbeta.rigbag.com%2Fpayment%2Fcancel%2Fpaypal%2Fbuy%2F%3Fti%3D55&currencyCode=EUR&ipnNotificationUrl=http%3A%2F%2Fbeta.rigbag.com%2Fpayment%2Fipn%2F&memo=RigBag+-+advert+no.98&paymentInfoList.paymentInfo(0).transactionId=1VL32861L6664423X&paymentInfoList.paymentInfo(0).transactionStatus=PENDING&paymentInfoList.paymentInfo(0).receiver.amount=80.00&paymentInfoList.paymentInfo(0).receiver.email=miecho_1356265732_per%40protonlabs.co&paymentInfoList.paymentInfo(0).receiver.primary=false&paymentInfoList.paymentInfo(0).receiver.paymentType=GOODS&paymentInfoList.paymentInfo(0).refundedAmount=0.00&paymentInfoList.paymentInfo(0).pendingRefund=false&paymentInfoList.paymentInfo(0).senderTransactionId=0R839239SF911640J&paymentInfoList.paymentInfo(0).senderTransactionStatus=PENDING&paymentInfoList.paymentInfo(0).pendingReason=MULTI_CURRENCY&returnUrl=http%3A%2F%2Fbeta.rigbag.com%2Fpayment%2Freturn%2Fpaypal%2Fbuy%2F%3Fti%3D55&senderEmail=bartek_1356252446_per%40protonlabs.co&status=COMPLETED&trackingId=55&payKey=AP-0LL92490VW3663134&actionType=PAY&feesPayer=EACHRECEIVER&reverseAllParallelPaymentsOnError=false&sender.email=bartek_1356252446_per%40protonlabs.co&sender.useCredentials=false
+PPAPIService: Request: requestEnvelope.errorLanguage=en_US&actionType=PAY&cancelUrl=http%3A%2F%2Fbeta.rigbag.com%2Fpayment%2Fcancel%2Fpaypal%2Fbuy%2F%3Fti%3D59&currencyCode=EUR&feesPayer=EACHRECEIVER&ipnNotificationUrl=http%3A%2F%2Fbeta.rigbag.com%2Fpayment%2Fipn%2F&memo=RigBag+-+advert+no.78&receiverList.receiver(0).amount=80&receiverList.receiver(0).email=miecho_1356265732_per%40protonlabs.co&receiverList.receiver(0).paymentType=GOODS&senderEmail=maciek%40extract.pl&returnUrl=http%3A%2F%2Fbeta.rigbag.com%2Fpayment%2Freturn%2Fpaypal%2Fbuy%2F%3Fti%3D59&trackingId=59
+PPHttpConnection: Adding header X-PAYPAL-SECURITY-USERID: maciek_1356234351_biz_api1.protonlabs.co
+PPHttpConnection: Adding header X-PAYPAL-SECURITY-PASSWORD: 1356234383
+PPHttpConnection: Adding header X-PAYPAL-SECURITY-SIGNATURE: AFcWxV21C7fd0v3bYYYRCpSSRl31AOJx9Fb0GjgHzq5th3xBO9Eb3.6w
+PPHttpConnection: Adding header X-PAYPAL-REQUEST-DATA-FORMAT: NV
+PPHttpConnection: Adding header X-PAYPAL-RESPONSE-DATA-FORMAT: NV
+PPHttpConnection: Adding header X-PAYPAL-DEVICE-IPADDRESS: 10.140.2.34
+PPHttpConnection: Adding header X-PAYPAL-REQUEST-SOURCE: adaptivepayments-php-sdk-2.1.96
+PPHttpConnection: Adding header X-PAYPAL-APPLICATION-ID: APP-80W284485P519543T
+PPAPIService: Response: responseEnvelope.timestamp=2013-01-08T03%3A51%3A55.546-08%3A00&responseEnvelope.ack=Success&responseEnvelope.correlationId=73d46a3f9ff32&responseEnvelope.build=4110101&payKey=AP-8K8721140W2353122&paymentExecStatus=CREATED

@@ -1,0 +1,95 @@
+{% if app.session.get('isAdminLoged') %}
+	{% set isLoged = true %}
+{% else %}
+	{% set isLoged = false %}
+{% endif %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>RigBag Admin</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link href="/bundles/rigbagadmin/css/bootstrap.css" rel="stylesheet">
+    <link href="/bundles/rigbagadmin/css/datepicker.css" rel="stylesheet">
+    <link href="/bundles/rigbagadmin/css/magicsuggest-1.2.0.css" rel="stylesheet">
+    <link href="/bundles/rigbagadmin/css/rigbag_admin.css" rel="stylesheet">
+    
+    <style>
+      body {
+        padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+      }
+    </style>
+	
+	<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?sensor=false&libraries=places"></script>
+    <script src="/bundles/rigbagadmin/js/jquery-1.9.1.js"></script>
+    <script src="/bundles/rigbagadmin/js/bootstrap-transition.js"></script>
+    <script src="/bundles/rigbagadmin/js/bootstrap-alert.js"></script>
+    <script src="/bundles/rigbagadmin/js/bootstrap-modal.js"></script>
+    <script src="/bundles/rigbagadmin/js/bootstrap-dropdown.js"></script>
+    <script src="/bundles/rigbagadmin/js/bootstrap-scrollspy.js"></script>
+    <script src="/bundles/rigbagadmin/js/bootstrap-tab.js"></script>
+    <script src="/bundles/rigbagadmin/js/bootstrap-tooltip.js"></script>
+    <script src="/bundles/rigbagadmin/js/bootstrap-popover.js"></script>
+    <script src="/bundles/rigbagadmin/js/bootstrap-button.js"></script>
+    <script src="/bundles/rigbagadmin/js/bootstrap-collapse.js"></script>
+    <script src="/bundles/rigbagadmin/js/bootstrap-carousel.js"></script>
+    <script src="/bundles/rigbagadmin/js/bootstrap-typeahead.js"></script>
+    <script src="/bundles/rigbagadmin/js/bootstrap-datepicker.js"></script>
+    <script src="/bundles/rigbagadmin/js/magicsuggest-1.2.0.js"></script>
+    <script src="/bundles/rigbagadmin/js/rigbag-admin.js"></script>
+  </head>
+
+  <body>
+
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="brand" href="{{ path('rb_admin_dashboard') }}">RigBag Admin</a>
+          {% if isLoged %}
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li><a href="{{ path('rb_admin_dashboard') }}">Dashboard</a></li>
+              <li><a href="{{ path('rb_admin_adverts_list') }}">Adverts</a></li>
+              <li><a href="{{ path('rb_admin_profiles_list') }}">Profiles</a></li>
+              <li><a href="{{ path('rb_admin_qa_list') }}">Q&amp;A</a></li>
+              <li><a href="{{ path('rb_admin_circles_list') }}">Circles</a></li>
+              <li><a href="{{ path('rb_admin_locations_list') }}">Locations</a></li>
+              <li><a href="{{ path('rb_admin_interests_list') }}">Interests</a></li>
+              <li><a href="{{ path('rb_admin_admins_list') }}">Admins</a></li>
+            </ul>
+         {% endif %}
+            {% if isLoged %}
+          	<div class="pull-right" style="padding-top: 10px;">
+          		<a href="{{ path('rb_admin_logout') }}">sign out</a>
+          	</div>
+          {% else %}
+            <form class="navbar-form pull-right" method="post">
+              <input class="span2" name="email" type="text" placeholder="Email">
+              <input class="span2" name="password" type="password" placeholder="Password">
+              <button type="submit" class="btn">Sign in</button>
+            </form>
+         {% endif %}
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+
+{% block body %}{% endblock %}
+
+    </div> <!-- /container -->
+
+
+  </body>
+</html>

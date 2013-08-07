@@ -1,0 +1,208 @@
+{#app/Resources/views/base.html.twig #}
+{% if isLoged is not defined %}
+	{% set isLoged = true %}
+{% endif %}
+{% if userId is not defined %}
+	{% set userId = 0 %}
+{% endif %}
+<!DOCTYPE html>
+<html>
+<head prefix="{{ ogpObject.renderHeadPrefix() }}">
+	<title>{{ ogpObject.title|raw }} (beta version)</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="/bundles/protonrigbag{{ asset('/css/favicon.ico') }}">
+    <script>
+		var APP_PATH	= '{{ path('start') }}';
+	</script>
+	<link href="/bundles/protonrigbag/css/fonts/roboto.css" type="text/css" rel="stylesheet" />
+	{% if isTablet %}
+		<link href="/bundles/protonrigbag/css/bootstrap.css" type="text/css" rel="stylesheet" />
+		<link href="/bundles/protonrigbag/css/fileuploader.css" type="text/css" rel="stylesheet" />
+		<link href="/bundles/protonrigbag/css/responsive-ipad.css" type="text/css" rel="stylesheet" />
+		<link href="/bundles/protonrigbag/css/proton-ipad.css" type="text/css" rel="stylesheet" />
+    {% else %}
+    	<link href="/bundles/protonrigbag/css/bootstrap.css" type="text/css" rel="stylesheet" />
+    	<link href="/bundles/protonrigbag/css/fileuploader.css" type="text/css" rel="stylesheet" />
+    	<link href="/bundles/protonrigbag/css/responsive.css" type="text/css" rel="stylesheet" />
+    	<link href="/bundles/protonrigbag/css/proton.css" type="text/css" rel="stylesheet" />
+    {% endif %}
+    {{ ogpObject.renderMetaTags()|raw }}
+    	<script src="/bundles/protonrigbag/js/jquery.min.js" type="text/javascript"></script>
+    	<script src="/bundles/protonrigbag/js/bootstrap.min.js" type="text/javascript"></script>
+    	<script src="/bundles/protonrigbag/js/jquery.autosize.js" type="text/javascript"></script>
+    	<script src="/bundles/protonrigbag/js/jquery.geocomplete.js" type="text/javascript"></script>
+    	<script src="/bundles/protonrigbag/js/jquery.form.js" type="text/javascript"></script>
+    	<script src="/bundles/protonrigbag/js/jquery.autosize.js" type="text/javascript"></script>
+    	<script src="/bundles/protonrigbag/js/jquery.metadata.js" type="text/javascript"></script>
+    	<script src="/bundles/protonrigbag/js/jquery.validate.js" type="text/javascript"></script>
+    	<script src="/bundles/protonrigbag/js/jquery.mousewheel.js" type="text/javascript"></script>
+    	<script src="/bundles/protonrigbag/js/jquery.hashchange.js" type="text/javascript"></script>
+    	<script src="/bundles/protonrigbag/js/jquery.cookie.js" type="text/javascript"></script>
+    	<script src="/bundles/protonrigbag/js/fileuploader.js" type="text/javascript"></script>
+
+    {% if isTablet %}
+    	<script src="/bundles/protonrigbag/js/ipad-add.js" type="text/javascript"></script>
+    {% endif %}
+    	<script src="/bundles/protonrigbag/js/rigbag-core.js" type="text/javascript"></script>
+    	<script src="/bundles/protonrigbag/js/rigbag/app.js" type="text/javascript"></script>
+    	<script src="/bundles/protonrigbag/js/rigbag/app-advert.js" type="text/javascript"></script>
+    	<script src="/bundles/protonrigbag/js/rigbag/app-qa.js" type="text/javascript"></script>
+    	<script src="/bundles/protonrigbag/js/rigbag/app-user.js" type="text/javascript"></script>
+	    <script src="/bundles/protonrigbag/js/rigbag/app-circle.js" type="text/javascript"></script>
+    	<script src="/bundles/protonrigbag/js/rigbag/app-mysport.js" type="text/javascript"></script>
+
+    <script>
+    var rbApp;
+
+	$(document).ready( function() {
+
+		rbApp	= new RigBagApp();
+
+
+		{% if isLoged %}
+		init();
+		{% endif %}
+		{% if lockInit is not defined %}
+			{% set lockInit = false %}
+		{% endif %}
+		{% if lockInit %}
+		{% else %}
+		rbApp.init();
+		{% endif %}
+
+		$(window).hashchange( function(){
+			$.cookie( 'urlHash', rbApp.getHash(), { path: '/' } );
+			rbApp.parseHash();
+		});
+
+
+	{% if isLoged %}
+		$('#user-panel .message').popover({ content: '<div style="padding: 12px;">Loading...</div>', html: true });
+
+		rbApp.user.setId( {{ user.id }} );
+
+		$('#user-panel .message').click( function() {
+			if( $('#user-panel .popover').hasClass('in') ) {
+				rbApp.user.refreshMessages();
+			}
+		});
+	{% endif %}
+	});
+	</script>
+</head>
+<body class="{{bodyClass}}" data-logged="{% if isLoged %}1{% else %}0{% endif %}">
+
+    <div class="container">
+
+        <!-- SIDEBAR: start -->
+      	<div class="sidebar{% if isTablet %} closed{% endif %}">
+            <!-- LOGO: start -->
+            <h1 class="logo">
+              	<a href="/#" title="">RigBag</a>
+            </h1>
+        	<!-- LOGO: end -->
+        	{% if isLoged %}
+        	<!-- PANEL: start -->
+              	<div class="user-panel" id="user-panel">
+              		<div class="message">
+              			<div class="info-alert">1</div>
+              		</div>
+              	</div>
+            <!-- PANEL: end -->
+
+            {% endif %}
+        	{% block menu %}{% endblock %}
+        	<div class="ipad-menu-button"></div>
+        	<div class="menu-switch"></div>
+        </div>
+        <!-- SIDEBAR: end -->
+        <!-- CONTENT: start -->
+        <div class="content">
+            <!-- HEADER: start -->
+            <div class="header">
+            	<!-- HEADER-TOP: start -->
+            	<div class="top">
+					<div class="row">
+						<div class="span10" id="headerTop">
+                			{% block headerTop %}{% endblock %}
+                		</div>
+                	</div>
+                </div>
+                <!-- HEADER-TOP: end -->
+
+            	<!-- HEADER-BOTTOM: start -->
+            	<div class="bottom">
+					<div class="row">
+						<div class="span10" id="headerBottom">
+                			{% block headerBottom %}{% endblock %}
+                		</div>
+                	</div>
+                </div>
+                <!-- HEADER-BOTTOM: end -->
+
+                {% if advertView is not defined %}
+                	<div id="headerExtras"></div>
+                	<div id="headerExtras-2"></div>
+                {% else %}
+                	<div id="headerExtras">
+                		{% include 'ProtonRigbagBundle:Qa:new-form-header.html.twig' with { 'circles': false, 'extraData': extraData, 'locations': false } %}
+                	</div>
+                	<div id="headerExtras-2">
+                		{% include 'ProtonRigbagBundle:Advert:header-to-friend-form.html.twig' with { 'advert': advertView } %}
+                	</div>
+                {% endif %}
+            </div>
+            <!-- HEADER: end -->
+            <!-- BODY: start -->
+           	<div class="body">
+           		<div class="row" id="content">
+					{% block body %}{% endblock %}
+				</div>
+            </div>
+         	<!-- BODY: end -->
+    	</div>
+        <!-- /CONTENT: end -->
+    </div>
+
+    <div class="flash-message" id="flash-message"></div>
+
+	<div id="main-loader" class="">
+		<div class="anim">
+			<div class="ball"></div>
+			<div class="ball1"></div>
+		</div>
+		<div class="text">
+			Please wait...
+		</div>
+	</div>
+
+
+    {% if userId or isLoged == false %}
+    <!-- MODALS: start -->
+   	<div id="modalLogin" class="modal hide fade modal-login" tabindex="-1" role="dialog" aria-labelledby="modalLogin" aria-hidden="true">
+		<div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+		</div>
+		<div class="modal-body">
+			{% if userId %}
+				<p>First you have to finish sign up process.</p>
+				<p>You can do it <a href="#" onclick="setUrl( '/settings/profile/' ); $('#modalLogin').modal('hide'); return false;" class="">here</a>.</p>
+			{% else %}
+				<h2>Join RigBag</h2>
+				<p>You need to be a member of the RigBag community to perform this action.</p>
+				<p>Sign in with one of the following social profiles to get started:</p>
+				<ul>
+					<li onclick="$.cookie( '#' + rbApp.getHash(), 'backUrlPath', '/' ); window.location='{{ path('login_facebook') }}';" class="facebook"></li>
+					<li onclick="$.cookie( '#' + rbApp.getHash(), 'backUrlPath', '/' ); window.location='{{ path('login_twitter') }}';" class="twitter"></li>
+				</ul>
+			{% endif %}
+		</div>
+	</div>
+	<!-- MODALS: end -->
+	{% endif %}
+
+
+    <script src="https://maps.googleapis.com/maps/api/js?sensor=false&libraries=places"></script>
+
+</body>
+</html>

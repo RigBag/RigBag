@@ -1,0 +1,799 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en" target-language='fr' datatype="plaintext" original="file.ext">
+        <body>
+        	<trans-unit id="2">
+				<source>answers</source>
+				<target>réponse </target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>(you won't be paying for the whole year)</source>
+				<target>(vous ne paierez pour l'année complète)</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>till</source>
+				<target>jusqu'à</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>answer</source>
+				<target>réponse </target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>1 day ago</source>
+				<target>il y a un jour</target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>1 hour ago</source>
+				<target>il y a une heure</target>
+			</trans-unit>
+			<trans-unit id="8">
+				<source>1 minute ago</source>
+				<target>il y a une minute</target>
+			</trans-unit>
+			<trans-unit id="9">
+				<source>accept</source>
+				<target>accepter</target>
+			</trans-unit>
+			<trans-unit id="10">
+				<source>Accept the offer or reject it.</source>
+				<target>accepte ou rejete l'offre</target>
+			</trans-unit>
+			<trans-unit id="11">
+				<source>Accepted</source>
+				<target>acceptée</target>
+			</trans-unit>
+			<trans-unit id="12">
+				<source>Account type: Annual</source>
+				<target>type de compte: annuel</target>
+			</trans-unit>
+			<trans-unit id="13">
+				<source>Add a profile picture</source>
+				<target>ajouter une photo profile</target>
+			</trans-unit>
+			<trans-unit id="14">
+				<source>add a shipping address</source>
+				<target>ajouter une adresse d'envoi</target>
+			</trans-unit>
+			<trans-unit id="15">
+				<source>address</source>
+				<target>adresse</target>
+			</trans-unit>
+			<trans-unit id="16">
+				<source>Advert</source>
+				<target>Annonce</target>
+			</trans-unit>
+			<trans-unit id="17">
+				<source>Advert no.</source>
+				<target>No. D'annonce</target>
+			</trans-unit>
+			<trans-unit id="18">
+				<source>Advert question</source>
+				<target>Question d'annonce</target>
+			</trans-unit>
+			<trans-unit id="19">
+				<source>Advert:</source>
+				<target>Annonce:</target>
+			</trans-unit>
+			<trans-unit id="20">
+				<source>Adverts</source>
+				<target>Annonces:</target>
+			</trans-unit>
+			<trans-unit id="21">
+				<source>Amount</source>
+				<target>Montant:</target>
+			</trans-unit>
+			<trans-unit id="22">
+				<source>amount</source>
+				<target>montant:</target>
+			</trans-unit>
+			<trans-unit id="23">
+				<source>Annual subscription</source>
+				<target>Abonnement annuel</target>
+			</trans-unit>
+			<trans-unit id="24">
+				<source>answers</source>
+				<target>réponse</target>
+			</trans-unit>
+			<trans-unit id="25">
+				<source>Are you sure?</source>
+				<target>Etes-vous certain?</target>
+			</trans-unit>
+			<trans-unit id="26">
+				<source>Ask</source>
+				<target>Demandez</target>
+			</trans-unit>
+			<trans-unit id="27">
+				<source>Ask a question</source>
+				<target>Poser une question</target>
+			</trans-unit>
+			<trans-unit id="28">
+				<source>ask seller a question about this item</source>
+				<target>poser une question au vendeur</target>
+			</trans-unit>
+			<trans-unit id="29">
+				<source>ask your circles a question about this item</source>
+				<target>poser une question via vos cercles</target>
+			</trans-unit>
+			<trans-unit id="30">
+				<source>asked</source>
+				<target>demandée</target>
+			</trans-unit>
+			<trans-unit id="31">
+				<source>asked you about</source>
+				<target>vous a demandé</target>
+			</trans-unit>
+			<trans-unit id="32">
+				<source>Benefits of the annual subscription</source>
+				<target>Bénéfices de l'abonnement annuel</target>
+			</trans-unit>
+			<trans-unit id="33">
+				<source>Beta version is FREE</source>
+				<target>La version béta est gratuite</target>
+			</trans-unit>
+			<trans-unit id="34">
+				<source>Browse</source>
+				<target>Consulter</target>
+			</trans-unit>
+			<trans-unit id="35">
+				<source>Browse other circles</source>
+				<target>Consulter d'autres réseaux</target>
+			</trans-unit>
+			<trans-unit id="36">
+				<source>Buy now</source>
+				<target>Achetez maintenant</target>
+			</trans-unit>
+			<trans-unit id="37">
+				<source>Buy or swap new or secondhand gear</source>
+				<target>Acheter ou échanger de nouveaux items ou items usagés</target>
+			</trans-unit>
+			<trans-unit id="38">
+				<source>characters left</source>
+				<target>Characteres restants</target>
+			</trans-unit>
+			<trans-unit id="39">
+				<source>Choose file</source>
+				<target>Choisissez le fichier</target>
+			</trans-unit>
+			<trans-unit id="40">
+				<source>circles</source>
+				<target>Réseaux</target>
+			</trans-unit>
+			<trans-unit id="41">
+				<source>close</source>
+				<target>Fermer</target>
+			</trans-unit>
+			<trans-unit id="42">
+				<source>Condition</source>
+				<target>Condition</target>
+			</trans-unit>
+			<trans-unit id="43">
+				<source>Congratulations</source>
+				<target>Félicitations</target>
+			</trans-unit>
+			<trans-unit id="44">
+				<source>connect</source>
+				<target>Connecter</target>
+			</trans-unit>
+			<trans-unit id="45">
+				<source>Connect with athletes and companies in your sport</source>
+				<target>Connecter avec des athletes et compagnies dans vos sports</target>
+			</trans-unit>
+			<trans-unit id="46">
+				<source>Connect your RigBag profile with social media for easy sharing</source>
+				<target>Connecter votre profil Rigbag and les réseaux sociaux afin de partager aisément</target>
+			</trans-unit>
+			<trans-unit id="47">
+				<source>connected</source>
+				<target>Connecté</target>
+			</trans-unit>
+			<trans-unit id="48">
+				<source>Connerym</source>
+				<target>?</target>
+			</trans-unit>
+			<trans-unit id="49">
+				<source>Currency</source>
+				<target>Devise</target>
+			</trans-unit>
+			<trans-unit id="50">
+				<source>date &amp; time</source>
+				<target>date &amp; heure</target>
+			</trans-unit>
+			<trans-unit id="51">
+				<source>days ago</source>
+				<target>il y x jour(s)</target>
+			</trans-unit>
+			<trans-unit id="52">
+				<source>Dear</source>
+				<target>Cher(e)</target>
+			</trans-unit>
+			<trans-unit id="53">
+				<source>description</source>
+				<target>description</target>
+			</trans-unit>
+			<trans-unit id="54">
+				<source>disconnect</source>
+				<target>Déconnecter</target>
+			</trans-unit>
+			<trans-unit id="55">
+				<source>DONE</source>
+				<target>TERMINE</target>
+			</trans-unit>
+			<trans-unit id="56">
+				<source>edit</source>
+				<target>modifier</target>
+			</trans-unit>
+			<trans-unit id="57">
+				<source>Edit advert</source>
+				<target>Modifier l'annonce</target>
+			</trans-unit>
+			<trans-unit id="58">
+				<source>Email</source>
+				<target>courrier électronique</target>
+			</trans-unit>
+			<trans-unit id="59">
+				<source>Enter location or interest</source>
+				<target>Entrez votre location ou interet</target>
+			</trans-unit>
+			<trans-unit id="60">
+				<source>Expire date</source>
+				<target>Date d'expiration</target>
+			</trans-unit>
+			<trans-unit id="61">
+				<source>Fail</source>
+				<target>Echoué</target>
+			</trans-unit>
+			<trans-unit id="62">
+				<source>FOR</source>
+				<target>POUR</target>
+			</trans-unit>
+			<trans-unit id="63">
+				<source>For</source>
+				<target>Pour</target>
+			</trans-unit>
+			<trans-unit id="64">
+				<source>for each advert you post on RigBag</source>
+				<target>pour chaque annonce que vous soumettez a Rigbag</target>
+			</trans-unit>
+			<trans-unit id="65">
+				<source>FOR SALE</source>
+				<target>A VENDRE</target>
+			</trans-unit>
+			<trans-unit id="66">
+				<source>FREE</source>
+				<target>GRATUITE</target>
+			</trans-unit>
+			<trans-unit id="67">
+				<source>Freebie</source>
+				<target>Gratuité</target>
+			</trans-unit>
+			<trans-unit id="68">
+				<source>from</source>
+				<target>de</target>
+			</trans-unit>
+			<trans-unit id="69">
+				<source>has accepted your offer for</source>
+				<target>a accepté votre offre pour</target>
+			</trans-unit>
+			<trans-unit id="70">
+				<source>has accepted your offer to swap</source>
+				<target>a accepté votre offre d'échange</target>
+			</trans-unit>
+			<trans-unit id="71">
+				<source>has been notified and received your shipping address</source>
+				<target>a été averti et a reçu votre adresse de réception</target>
+			</trans-unit>
+			<trans-unit id="72">
+				<source>has been sold to</source>
+				<target>a été vendu à</target>
+			</trans-unit>
+			<trans-unit id="73">
+				<source>has rejected your offer to accept</source>
+				<target>a rejeté votre offre d'achat</target>
+			</trans-unit>
+			<trans-unit id="74">
+				<source>has rejected your offer to swap</source>
+				<target>a rejeté votre offre d'échange</target>
+			</trans-unit>
+			<trans-unit id="75">
+				<source>Hello!</source>
+				<target>Bonjour!</target>
+			</trans-unit>
+			<trans-unit id="76">
+				<source>hours ago</source>
+				<target>il y a X heures</target>
+			</trans-unit>
+			<trans-unit id="77">
+				<source>I have account</source>
+				<target>J'ai un compte</target>
+			</trans-unit>
+			<trans-unit id="78">
+				<source>I haven't account</source>
+				<target>Je n'ai pas de compte</target>
+			</trans-unit>
+			<trans-unit id="79">
+				<source>I'd swap this item for</source>
+				<target>Je voudrais échanger cet item pour</target>
+			</trans-unit>
+			<trans-unit id="80">
+				<source>Ideal if you just want to see if RigBag is for you</source>
+				<target>Idéal afin de voir si Rigbag est pour vous</target>
+			</trans-unit>
+			<trans-unit id="81">
+				<source>in</source>
+				<target>dans</target>
+			</trans-unit>
+			<trans-unit id="82">
+				<source>In All Sports</source>
+				<target>dans Tous les Sports</target>
+			</trans-unit>
+			<trans-unit id="83">
+				<source>Is your shipping address the same?</source>
+				<target>Est-ce que votre adresse de réception est la meme</target>
+			</trans-unit>
+			<trans-unit id="84">
+				<source>Item</source>
+				<target>Item</target>
+			</trans-unit>
+			<trans-unit id="85">
+				<source>Item location</source>
+				<target>Location de l'item</target>
+			</trans-unit>
+			<trans-unit id="86">
+				<source>Join RigBag</source>
+				<target>Se joindre à Rigbag</target>
+			</trans-unit>
+			<trans-unit id="87">
+				<source>Join the Circle</source>
+				<target>Joindre ce cercle</target>
+			</trans-unit>
+			<trans-unit id="88">
+				<source>Location</source>
+				<target>Location</target>
+			</trans-unit>
+			<trans-unit id="89">
+				<source>Log out</source>
+				<target>Déconnecter</target>
+			</trans-unit>
+			<trans-unit id="90">
+				<source>Make</source>
+				<target>Faire</target>
+			</trans-unit>
+			<trans-unit id="91">
+				<source>Members</source>
+				<target>Membres</target>
+			</trans-unit>
+			<trans-unit id="92">
+				<source>Method</source>
+				<target>Méthode</target>
+			</trans-unit>
+			<trans-unit id="93">
+				<source>minutes ago</source>
+				<target>il y a x minutes</target>
+			</trans-unit>
+			<trans-unit id="94">
+				<source>My</source>
+				<target>Mon</target>
+			</trans-unit>
+			<trans-unit id="95">
+				<source>My profile</source>
+				<target>Mon profile</target>
+			</trans-unit>
+			<trans-unit id="96">
+				<source>My sports</source>
+				<target>Mes sports</target>
+			</trans-unit>
+			<trans-unit id="97">
+				<source>News</source>
+				<target>Nouvelles</target>
+			</trans-unit>
+			<trans-unit id="98">
+				<source>Next</source>
+				<target>Suivant</target>
+			</trans-unit>
+			<trans-unit id="99">
+				<source>Next</source>
+				<target>Suivant</target>
+			</trans-unit>
+			<trans-unit id="100">
+				<source>Nice work!!!</source>
+				<target>Bon travail!!!</target>
+			</trans-unit>
+			<trans-unit id="101">
+				<source>No adverts</source>
+				<target>Aucune annonce</target>
+			</trans-unit>
+			<trans-unit id="102">
+				<source>No members</source>
+				<target>Aucun membre</target>
+			</trans-unit>
+			<trans-unit id="103">
+				<source>No messages</source>
+				<target>Aucun message</target>
+			</trans-unit>
+			<trans-unit id="104">
+				<source>No news</source>
+				<target>Aucune nouvelle</target>
+			</trans-unit>
+			<trans-unit id="105">
+				<source>No questions</source>
+				<target>Aucune question</target>
+			</trans-unit>
+			<trans-unit id="106">
+				<source>now</source>
+				<target>maintenant</target>
+			</trans-unit>
+			<trans-unit id="107">
+				<source>or</source>
+				<target>ou</target>
+			</trans-unit>
+			<trans-unit id="108">
+				<source>or by phone</source>
+				<target>ou via téléphone</target>
+			</trans-unit>
+			<trans-unit id="109">
+				<source>other</source>
+				<target>autre</target>
+			</trans-unit>
+			<trans-unit id="110">
+				<source>Other Circles</source>
+				<target>Autres Cercles</target>
+			</trans-unit>
+			<trans-unit id="111">
+				<source>Pay as you go</source>
+				<target>Payez par item</target>
+			</trans-unit>
+			<trans-unit id="112">
+				<source>Pay as you go subscription</source>
+				<target>Abonnement payez par item</target>
+			</trans-unit>
+			<trans-unit id="113">
+				<source>pay&amp;publish</source>
+				<target>payer&amp;publier</target>
+			</trans-unit>
+			<trans-unit id="114">
+				<source>PayPal account</source>
+				<target>compte Paypal</target>
+			</trans-unit>
+			<trans-unit id="115">
+				<source>Phone</source>
+				<target>Téléphone</target>
+			</trans-unit>
+			<trans-unit id="116">
+				<source>phone</source>
+				<target>téléphone</target>
+			</trans-unit>
+			<trans-unit id="117">
+				<source>Phone number</source>
+				<target>Numéro de téléphone</target>
+			</trans-unit>
+			<trans-unit id="118">
+				<source>Photos</source>
+				<target>Photos</target>
+			</trans-unit>
+			<trans-unit id="119">
+				<source>Please enable JavaScript to use file uploader</source>
+				<target></target>
+			</trans-unit>
+			<trans-unit id="120">
+				<source>Please select subscription type</source>
+				<target>SVP sélectionnez un type d'abonnement</target>
+			</trans-unit>
+			<trans-unit id="121">
+				<source>Please wait</source>
+				<target>Veuillez attendre</target>
+			</trans-unit>
+			<trans-unit id="122">
+				<source>Post a new advert</source>
+				<target>Publier une nouvelle annonce</target>
+			</trans-unit>
+			<trans-unit id="123">
+				<source>Post a new question</source>
+				<target>Poser une nouvelle question</target>
+			</trans-unit>
+			<trans-unit id="124">
+				<source>Post an advert</source>
+				<target>Publier une annonce</target>
+			</trans-unit>
+			<trans-unit id="125">
+				<source>Post to circles</source>
+				<target>Publier à vos cercles</target>
+			</trans-unit>
+			<trans-unit id="126">
+				<source>Preview</source>
+				<target>Aperçu</target>
+			</trans-unit>
+			<trans-unit id="127">
+				<source>Price</source>
+				<target>Prix</target>
+			</trans-unit>
+			<trans-unit id="128">
+				<source>Profile</source>
+				<target>Profil</target>
+			</trans-unit>
+			<trans-unit id="129">
+				<source>PS.</source>
+				<target>PS.</target>
+			</trans-unit>
+			<trans-unit id="130">
+				<source>Publish</source>
+				<target>Publier</target>
+			</trans-unit>
+			<trans-unit id="131">
+				<source>Publish now</source>
+				<target>Publier maintenant</target>
+			</trans-unit>
+			<trans-unit id="132">
+				<source>Q&amp;A</source>
+				<target>Q&amp;R</target>
+			</trans-unit>
+			<trans-unit id="133">
+				<source>Question about an item</source>
+				<target>Question au sujet d'un item</target>
+			</trans-unit>
+			<trans-unit id="134">
+				<source>Questions &amp; Answers</source>
+				<target>Questions &amp; Réponses</target>
+			</trans-unit>
+			<trans-unit id="135">
+				<source>Read all the latest news</source>
+				<target>Lisez toutes les nouvelles</target>
+			</trans-unit>
+			<trans-unit id="136">
+				<source>reject</source>
+				<target>rejetez</target>
+			</trans-unit>
+			<trans-unit id="137">
+				<source>Rejected</source>
+				<target>Rejeté(e)</target>
+			</trans-unit>
+			<trans-unit id="138">
+				<source>remove</source>
+				<target>Enlever</target>
+			</trans-unit>
+			<trans-unit id="139">
+				<source>Reply</source>
+				<target>Répondre</target>
+			</trans-unit>
+			<trans-unit id="140">
+				<source>Result</source>
+				<target>Résultat</target>
+			</trans-unit>
+			<trans-unit id="141">
+				<source>RigBag . Powering Action Sports</source>
+				<target>Rigbag - La Plate-forme pour les sports niches</target>
+			</trans-unit>
+			<trans-unit id="142">
+				<source>RigBag annual subscription</source>
+				<target>Rigbag abonnement annuel</target>
+			</trans-unit>
+			<trans-unit id="143">
+				<source>Sale</source>
+				<target>Vente</target>
+			</trans-unit>
+			<trans-unit id="144">
+				<source>Select</source>
+				<target>Sélectionner</target>
+			</trans-unit>
+			<trans-unit id="145">
+				<source>select a location</source>
+				<target>Sélectionner une location</target>
+			</trans-unit>
+			<trans-unit id="146">
+				<source>select a sport</source>
+				<target>Sélectionner un sport</target>
+			</trans-unit>
+			<trans-unit id="147">
+				<source>Sell as much gear as you like for a full year</source>
+				<target>Vente illimitée d'items pendant un an</target>
+			</trans-unit>
+			<trans-unit id="148">
+				<source>Seller</source>
+				<target>Vendeur</target>
+			</trans-unit>
+			<trans-unit id="149">
+				<source>Send</source>
+				<target>Envoyer</target>
+			</trans-unit>
+			<trans-unit id="150">
+				<source>Settings</source>
+				<target>Configurations</target>
+			</trans-unit>
+			<trans-unit id="151">
+				<source>Share</source>
+				<target>Partagez</target>
+			</trans-unit>
+			<trans-unit id="152">
+				<source>Share this advert</source>
+				<target>Partager cette annonce</target>
+			</trans-unit>
+			<trans-unit id="153">
+				<source>Short bio</source>
+				<target>Courte bio</target>
+			</trans-unit>
+			<trans-unit id="154">
+				<source>Sign in</source>
+				<target>Enregistrement</target>
+			</trans-unit>
+			<trans-unit id="155">
+				<source>Sign up</source>
+				<target>Abonnez-vous</target>
+			</trans-unit>
+			<trans-unit id="156">
+				<source>state</source>
+				<target>mentionnez</target>
+			</trans-unit>
+			<trans-unit id="157">
+				<source>Subscription</source>
+				<target>Abonnement</target>
+			</trans-unit>
+			<trans-unit id="158">
+				<source>Success</source>
+				<target>Succès</target>
+			</trans-unit>
+			<trans-unit id="159">
+				<source>Suggest an item that you want to swap for</source>
+				<target>Suggérer un item que vous voulez échanger</target>
+			</trans-unit>
+			<trans-unit id="160">
+				<source>Suggest this advert to the friends</source>
+				<target>Suggérer cet item à des amis</target>
+			</trans-unit>
+			<trans-unit id="161">
+				<source>Swap</source>
+				<target>Échangez</target>
+			</trans-unit>
+			<trans-unit id="162">
+				<source>swap for:</source>
+				<target>échangez pour:</target>
+			</trans-unit>
+			<trans-unit id="163">
+				<source>Swap offer</source>
+				<target>Offre d'échange</target>
+			</trans-unit>
+			<trans-unit id="164">
+				<source>Take it</source>
+				<target>Prenez-le</target>
+			</trans-unit>
+			<trans-unit id="165">
+				<source>Take request</source>
+				<target>Acceptez la demande</target>
+			</trans-unit>
+			<trans-unit id="166">
+				<source>Thank you for using RigBag</source>
+				<target>Merci d'utiliser Rigbag</target>
+			</trans-unit>
+			<trans-unit id="167">
+				<source>The most cost effective way of getting all the benefits of RigBag</source>
+				<target>La manière la plus efficace de bénéficier de Rigbag</target>
+			</trans-unit>
+			<trans-unit id="168">
+				<source>The RigBag Team</source>
+				<target>L'équipe Rigbag</target>
+			</trans-unit>
+			<trans-unit id="169">
+				<source>The seller</source>
+				<target>Le vendeur</target>
+			</trans-unit>
+			<trans-unit id="170">
+				<source>Their shipping address is</source>
+				<target>L'adresse de livraison</target>
+			</trans-unit>
+			<trans-unit id="171">
+				<source>to PayPal to pay</source>
+				<target>à Paypal de payer</target>
+			</trans-unit>
+			<trans-unit id="172">
+				<source>Transactions</source>
+				<target>Transactions</target>
+			</trans-unit>
+			<trans-unit id="173">
+				<source>Try offering something else?</source>
+				<target>Offrez un autre item?</target>
+			</trans-unit>
+			<trans-unit id="174">
+				<source>Try out RigBag for a low cost</source>
+				<target>Essayez Rigbag pour peu</target>
+			</trans-unit>
+			<trans-unit id="175">
+				<source>Type</source>
+				<target>Type</target>
+			</trans-unit>
+			<trans-unit id="176">
+				<source>type</source>
+				<target>type</target>
+			</trans-unit>
+			<trans-unit id="177">
+				<source>Update advert</source>
+				<target>Mettre à jour l'annonce</target>
+			</trans-unit>
+			<trans-unit id="178">
+				<source>Update profile</source>
+				<target>Mettre à jour votre profil</target>
+			</trans-unit>
+			<trans-unit id="179">
+				<source>using RigBag as</source>
+				<target>Utiliser Rigbag comme</target>
+			</trans-unit>
+			<trans-unit id="180">
+				<source>view</source>
+				<target>Regarder</target>
+			</trans-unit>
+			<trans-unit id="181">
+				<source>View the advert</source>
+				<target>Regarder l'annonce</target>
+			</trans-unit>
+			<trans-unit id="182">
+				<source>wants to accept</source>
+				<target>accepte l'offre</target>
+			</trans-unit>
+			<trans-unit id="183">
+				<source>wants to swap</source>
+				<target>veut échanger</target>
+			</trans-unit>
+			<trans-unit id="184">
+				<source>wants you to have a look at item on RigBag.</source>
+				<target>veut que vous jetiez un coup d</target>
+			</trans-unit>
+			<trans-unit id="185">
+				<source>Well done, </source>
+				<target>Bien fait</target>
+			</trans-unit>
+			<trans-unit id="186">
+				<source>while in beta</source>
+				<target>En version béta</target>
+			</trans-unit>
+			<trans-unit id="187">
+				<source>Why would you like to take it?</source>
+				<target>Pourquoi voulez-vous cet item</target>
+			</trans-unit>
+			<trans-unit id="188">
+				<source>Write answer...</source>
+				<target>Écrivez votre réponse</target>
+			</trans-unit>
+			<trans-unit id="189">
+				<source>You can't do it.</source>
+				<target>Ce n'est pas possible</target>
+			</trans-unit>
+			<trans-unit id="190">
+				<source>You have just bought</source>
+				<target>Vous avez acheté</target>
+			</trans-unit>
+			<trans-unit id="191">
+				<source>You have to select something.</source>
+				<target>Vous avez sélectionnez un item</target>
+			</trans-unit>
+			<trans-unit id="192">
+				<source>You haven't any transactions.</source>
+				<target>Vous avez aucune transaction</target>
+			</trans-unit>
+			<trans-unit id="193">
+				<source>You may contact them by email</source>
+				<target>Vous pouvez contacter le vendeur via email</target>
+			</trans-unit>
+			<trans-unit id="194">
+				<source>You will be charged</source>
+				<target>Vous serez chargé(e)</target>
+			</trans-unit>
+			<trans-unit id="195">
+				<source>You will be redirected</source>
+				<target>Vous serez redirigé(e)</target>
+			</trans-unit>
+			<trans-unit id="196">
+				<source>You will be redirected to PayPal to pay</source>
+				<target>Votre compte sera redirigé vers Paypal afin de payer</target>
+			</trans-unit>
+			<trans-unit id="197">
+				<source>Your account is ready. Now you can publish your adverts</source>
+				<target>Votre compte est prêt. Vous pouvez maintenant publier vos items</target>
+			</trans-unit>
+			<trans-unit id="198">
+				<source>Your item</source>
+				<target>Votre item</target>
+			</trans-unit>
+			<trans-unit id="199">
+				<source>Your name</source>
+				<target>Votre nom</target>
+			</trans-unit>
+        </body>
+    </file>
+</xliff>

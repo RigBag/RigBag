@@ -1,0 +1,26 @@
+imports:
+    - { resource: config.yml }
+
+#doctrine:
+#    orm:
+#        metadata_cache_driver: apc
+#        result_cache_driver: apc
+#        query_cache_driver: apc
+
+monolog:
+    handlers:
+        main:
+            type:         fingers_crossed
+            action_level: error
+            handler:      nested
+            
+        nested:
+            type:  stream
+            path:  %kernel.logs_dir%/%kernel.environment%.log
+            level: debug
+
+parameters:
+        google:
+            client_id:           '301572749715-9blqfin5evjea8dc9ubrcjqqhhihjsfg.apps.googleusercontent.com'
+            client_secret:       '1uS4usnMcZTxl9x1nW6JayPq'
+            developer_key:       'Kj89kdljsj43ius3349djlkds'
